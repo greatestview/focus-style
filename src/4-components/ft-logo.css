@@ -1,0 +1,7 @@
+.ft-logo {
+  color: var(--ft-color--interaction-cta);
+}
+
+.ft-logo > * {
+  --ft-gap-margin--space: var(--ft-space--3);
+}

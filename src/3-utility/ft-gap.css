@@ -1,0 +1,37 @@
+/**
+ * This classes create gaps between flex children. The element this class is
+ * applied on must have a `display: flex;` for this to work.
+ */
+
+.ft-gap {
+  --ft-gap--space: var(--ft-space--2);
+  gap: var(--ft-gap--space);
+}
+
+.ft-gap--row {
+  gap: 0 var(--ft-gap--space);
+}
+
+.ft-gap--col {
+  gap: var(--ft-gap--space) 0;
+}
+
+.ft-gap--0 {
+  --ft-gap--space: var(--ft-space--0);
+}
+
+.ft-gap--sm {
+  --ft-gap--space: var(--ft-space--1);
+}
+
+.ft-gap--md {
+  --ft-gap--space: var(--ft-space--4);
+}
+
+.ft-gap--lg {
+  --ft-gap--space: var(--ft-space--8);
+}
+
+.ft-gap--xl {
+  --ft-gap--space: var(--ft-space--12);
+}

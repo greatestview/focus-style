@@ -1,0 +1,73 @@
+:root {
+  /**
+   * Color palette
+   */
+
+  /* Brand */
+  --ft-color--primary           : hsl(336, 77%, 50%);
+  --ft-color--secondary         : hsl(191, 67%, 46%);
+  --ft-color--secondary-dimmed  : hsl(191, 82%, 31%);
+
+  /* Grayscale */
+  --ft-color--black             : hsla(0, 0%, 0%, .87);
+  --ft-color--black-1           : hsla(0, 0%, 0%, .66 );
+  --ft-color--black-2           : hsla(0, 0%, 0%, .5 );
+  --ft-color--black-3           : hsla(0, 0%, 0%, .2 );
+  --ft-color--black-4           : hsla(0, 0%, 0%, .05 );
+  --ft-color--white             : hsla(0, 0%, 100%, .87);
+  --ft-color--white-1           : hsla(0, 0%, 100%, .66 );
+  --ft-color--white-2           : hsla(0, 0%, 100%, .5 );
+  --ft-color--white-3           : hsla(0, 0%, 100%, .2 );
+  --ft-color--white-4           : hsla(0, 0%, 100%, .1 );
+
+  /* Form validation */
+  --ft-color--form-error        : hsla(10, 100%, 50%, .24);
+  --ft-color--form-warning      : hsla(42, 100%, 50%, .24);
+  --ft-color--form-success      : hsla(110, 100%, 50%, .24);
+
+  /* Other */
+  --ft-color--mark              : hsla(42, 100%, 50%, .24);
+
+  /* Social colors from @url http://brandcolors.net */
+  --ft-color--social-facebook   : #3b5998;
+  --ft-color--social-twitter    : #55acee;
+  --ft-color--social-whatsapp   : #4dc247;
+  --ft-color--social-googleplus : #dd4b39;
+  --ft-color--social-pinterest  : #cc2127;
+  --ft-color--social-tumblr     : #35465c;
+  --ft-color--social-youtube    : #cd201f;
+  --ft-color--social-vimeo      : #1ab7ea;
+  --ft-color--social-soundcloud : #ff8800;
+  --ft-color--social-linkedin   : #0077b5;
+  --ft-color--social-xing       : #cfdc00;
+  --ft-color--social-disqus     : #2e9fff;
+  --ft-color--social-instagram  : #3f729b;
+  --ft-color--social-snapchat   : #fffc00;
+
+  /**
+   * Color properties, which reference colors from the palette.
+   * Should be used for overrides.
+   */
+  --ft-color--site-background   : var(--ft-color--white);
+  --ft-color--background        : var(--ft-color--black-4);
+  --ft-color--shadow            : var(--ft-color--black-4);
+  --ft-color--border            : var(--ft-color--black-3);
+  --ft-color--focus             : var(--ft-color--primary);
+  --ft-color--interaction       : var(--ft-color--secondary);
+  --ft-color--interaction-cta   : var(--ft-color--primary);
+  --ft-color--visited           : var(--ft-color--secondary-dimmed);
+  --ft-color--strong            : var(--ft-color--black);
+  --ft-color--text              : var(--ft-color--black);
+  --ft-color--text-1            : var(--ft-color--black-1);
+  --ft-color--text-2            : var(--ft-color--black-2);
+
+  @media (prefers-color-scheme: dark) {
+    --ft-color--site-background   : var(--ft-color--black);
+    --ft-color--background        : var(--ft-color--white-4);
+    --ft-color--border            : var(--ft-color--white-3);
+    --ft-color--strong            : var(--ft-color--white);
+    --ft-color--text              : var(--ft-color--white);
+    --ft-color--text-1            : var(--ft-color--white-1);
+    --ft-color--text-2            : var(--ft-color--white-2);
+  }
+}

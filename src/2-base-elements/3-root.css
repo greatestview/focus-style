@@ -1,0 +1,10 @@
+/**
+ * Basic html styling: :root
+ */
+
+:root {
+  background-color: var(--ft-color--site-background);
+  color: var(--ft-color--text);
+  font-size: var(--ft-font-size-root);
+  line-height: var(--ft-line-height-root);
+}

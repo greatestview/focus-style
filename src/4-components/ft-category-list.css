@@ -1,0 +1,9 @@
+.ft-category-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.ft-category-list > *:not(:last-child)::after {
+  color: var(--ft-color--text-2);
+  content: " / ";
+}

@@ -1,0 +1,59 @@
+/**
+ * Basic html styling: images
+ */
+
+img,
+svg {
+  display: block;
+  height: auto;
+  max-width: var(--ft-max-width--full);
+}
+
+svg {
+  /*
+  Prevents events to be fired unexpectedly on svg with holes
+  @see https://www.smashingmagazine.com/2018/05/svg-interaction-pointer-events-property/
+  */
+  pointer-events: none;
+}
+
+img {
+  border-radius: var(--ft-border-radius--default);
+  box-shadow: var(--ft-shadow--default);
+  /* broken image styling */
+  color: var(--ft-color--text-2);
+  font-size: var(--ft-font-size--sm);
+  line-height: var(--ft-line-height--sm);
+  text-align: center;
+}
+
+figure {
+  --ft-figure-space: var(--ft-space--6);
+  display: block;
+  margin: var(--ft-figure-space) 0;
+  max-width: var(--ft-max-width--full);
+
+  @media (--ft-viewport--lg) {
+    --ft-figure-space: var(--ft-space--8);
+  }
+}
+
+figcaption {
+  color: var(--ft-color--text-1);
+  display: block;
+  font-family: var(--ft-font-family--default);
+  font-size: var(--ft-font-size--sm);
+  line-height: var(--ft-line-height--sm);
+  margin-bottom: var(--ft-space--2);
+  margin-top: var(--ft-space--2);
+  text-align: left;
+  width: 100%;
+}
+
+figcaption > :first-child {
+  margin-top: 0;
+}
+
+figcaption > :last-child {
+  margin-bottom: 0;
+}

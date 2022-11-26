@@ -1,0 +1,16 @@
+.ft-list-reset {
+  list-style: none;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding-left: 0;
+
+  .ft-grid > & {
+    padding-left: calc(var(--ft-grid--column-gap) / 2);
+  }
+}
+
+.ft-list-reset li {
+  padding-left: 0;
+  margin-bottom: 0;
+  margin-top: 0;
+}

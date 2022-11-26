@@ -1,0 +1,21 @@
+:root {
+  /* Make some constants and calculate the others from them. */
+  --ft-grid--width: 90vw;
+  --ft-grid--padding: calc((100vw - var(--ft-grid--width)) / 2);
+  --ft-grid--column-quantity: 12;
+  --ft-grid--column-width: calc(var(--ft-grid--width) / var(--ft-grid--column-quantity));
+  --ft-grid--column-gap: 4vw;
+
+  @media (--ft-viewport--sm) {
+    --ft-grid--column-gap: 3vw;
+  }
+
+  @media (--ft-viewport--md) {
+    --ft-grid--width: 80vw;
+    --ft-grid--column-gap: 2vw;
+  }
+
+  @media (--ft-viewport--xxl) {
+    --ft-grid--width: 60vw;
+  }
+}

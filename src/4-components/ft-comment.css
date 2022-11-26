@@ -1,0 +1,19 @@
+.ft-comment__author {
+  padding-right: var(--ft-space--1);
+}
+
+.ft-comment__metadata {
+  --ft-color--interaction: var(--ft-color--text-2);
+  --ft-color--text: var(--ft-color--text-2);
+  color: var(--ft-color--text);
+}
+
+.ft-comment__content > * {
+  --ft-blockquote-font-size: inherit;
+  --ft-blockquote-line-height: inherit;
+  --ft-blockquote-space: 0;
+}
+
+.ft-comment p {
+  font-family: var(--ft-font-family--serif);
+}

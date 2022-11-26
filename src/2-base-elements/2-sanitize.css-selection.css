@@ -1,0 +1,94 @@
+/*! sanitize.css v7.0.3 | CC0 License | github.com/csstools/sanitize.css */
+
+/* Document
+ * ========================================================================== */
+
+/**
+ * 1. Remove repeating backgrounds in all browsers (opinionated).
+ * 2. Add border box sizing in all browsers (opinionated).
+ */
+
+*,
+::before,
+::after {
+  background-repeat: no-repeat; /* 1 */
+  box-sizing: border-box; /* 2 */
+}
+
+/**
+ * 1. Add text decoration inheritance in all browsers (opinionated).
+ */
+
+::before,
+::after {
+  text-decoration: inherit; /* 1 */
+}
+
+/**
+ * 2. Use the default user interface font in all browsers (opinionated).
+ * 6. Breaks words to prevent overflow in all browsers (opinionated).
+ */
+
+html {
+  font-family: var(--ft-font-family--default); /* 2 */
+  word-break: break-word; /* 6 */
+}
+
+/* Text-level semantics
+ * ========================================================================== */
+
+/**
+ * 1. Use the default monospace user interface font
+ *    in all browsers (opinionated).
+ */
+
+pre,
+code,
+kbd,
+samp {
+  font-family: var(--ft-font-family--mono); /* 1 */
+}
+
+/* Embedded content
+ * ========================================================================== */
+
+/**
+ * Remove the border on iframes in all browsers (opinionated).
+ */
+
+iframe {
+  border-style: none;
+}
+
+/* Forms
+ * ========================================================================== */
+
+/**
+ * 3. Change the resize direction on textareas in all browsers (opinionated).
+ */
+
+textarea {
+  resize: vertical; /* 3 */
+}
+
+/* User interaction
+ * ========================================================================== */
+
+/*
+ * 1. Remove the tapping delay in IE 10.
+ * 2. Remove the tapping delay on clickable elements
+ *    in all browsers (opinionated).
+ */
+
+a,
+area,
+button,
+input,
+label,
+select,
+summary,
+textarea,
+[tabindex] {
+  -ms-touch-action: manipulation; /* 1 */
+  touch-action: manipulation; /* 2 */
+}

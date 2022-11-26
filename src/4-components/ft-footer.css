@@ -1,0 +1,5 @@
+.ft-footer {
+  background-color: var(--ft-color--secondary-dimmed);
+  padding-bottom: var(--ft-space--8);
+  padding-top: var(--ft-space--8);
+}

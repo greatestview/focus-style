@@ -1,0 +1,26 @@
+:root {
+  /*
+  Be careful to **always** use both --ft-font-size--xy **and**
+  --ft-line-height--xy properties together as a pair with the same
+  dimension! Otherwise this typography system does not make sense.
+
+  Example:
+  h1 {
+    font-size: var(--ft-font-size--xl);
+    line-height: var(--ft-line-height--xl);
+  }
+  */
+
+  /* Line height of root element */
+  --ft-line-height-root  : 1.6;
+
+  /* Line height variants are calculated via --ft-line-height-root and this factor */
+  --ft-line-height-scale : 0.9;
+
+  /* Line heights, calculated via --ft-line-height-scale */
+  --ft-line-height--sm   : calc(var(--ft-line-height--base) / var(--ft-line-height-scale));
+  --ft-line-height--base : var(--ft-line-height-root);
+  --ft-line-height--md   : calc(var(--ft-line-height--base) * var(--ft-line-height-scale));
+  --ft-line-height--lg   : calc(var(--ft-line-height--md)   * var(--ft-line-height-scale));
+  --ft-line-height--xl   : calc(var(--ft-line-height--lg)   * var(--ft-line-height-scale));
+}

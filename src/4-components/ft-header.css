@@ -1,0 +1,8 @@
+.ft-header {
+  padding-bottom: var(--ft-space--8);
+  padding-top: var(--ft-space--8);
+}
+
+.ft-header--is-inverted {
+  background-color: var(--ft-color--secondary-dimmed);
+}

@@ -1,0 +1,27 @@
+:root {
+  /**
+   * Spaces for margin, padding, border-size, etc.
+   *
+   * Please use these properties as often as possible and prevent
+   * magic numbers in CSS code!
+   */
+  --ft-space--px     : 1px;
+  --ft-space--0      : 0rem; /* `calc()` needs a unit */
+  --ft-space--1      : 0.25rem;
+  --ft-space--2      : calc(var(--ft-space--1) * 2);
+  --ft-space--3      : calc(var(--ft-space--1) * 3);
+  --ft-space--4      : calc(var(--ft-space--1) * 4);
+  --ft-space--6      : calc(var(--ft-space--1) * 6);
+  --ft-space--8      : calc(var(--ft-space--1) * 8);
+  --ft-space--10     : calc(var(--ft-space--1) * 10);
+  --ft-space--12     : calc(var(--ft-space--1) * 12);
+  --ft-space--14     : calc(var(--ft-space--1) * 14);
+  --ft-space--16     : calc(var(--ft-space--1) * 16);
+  --ft-space--24     : calc(var(--ft-space--1) * 24);
+  --ft-space--32     : calc(var(--ft-space--1) * 32);
+  --ft-space--48     : calc(var(--ft-space--1) * 48);
+  --ft-space--64     : calc(var(--ft-space--1) * 64);
+  --ft-space--128    : calc(var(--ft-space--1) * 128);
+  --ft-space--full   : 100%;
+  --ft-space--screen : 100vw;
+}

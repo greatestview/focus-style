@@ -1,0 +1,32 @@
+/**
+ * Makes any wrapper element keep a given aspect ratio when resized.
+ *
+ * @see https://www.smashingmagazine.com/2016/08/ways-to-reduce-content-shifting-on-page-load/
+ */
+
+.ft-aspect-ratio {
+  --ft-aspect-ratio: calc(16 / 9);
+  position: relative;
+  height: 0;
+  overflow: hidden;
+  padding-bottom: calc(100% / var(--ft-aspect-ratio));
+}
+
+.ft-aspect-ratio--square {
+  --ft-aspect-ratio: 1;
+}
+
+.ft-aspect-ratio--square\@0-sm {
+  @media (--ft-viewport--0-sm) {
+    --ft-aspect-ratio: 1;
+  }
+}
+
+.ft-aspect-ratio > * {
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}

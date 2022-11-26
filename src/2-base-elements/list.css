@@ -1,0 +1,55 @@
+/**
+ * Basic html styling: List
+ */
+
+::marker {
+  color: var(--ft-color--focus);
+
+  ol > & {
+    font-size: var(--ft-font-size--sm);
+    font-weight: var(--ft-font-weight--bold);
+    line-height: var(--ft-line-height--sm);
+  }
+}
+
+ol,
+ul,
+menu,
+dir,
+dl {
+  --ft-list-space: var(--ft-space--3);
+  margin-bottom: var(--ft-list-space);
+  margin-top: var(--ft-list-space);
+}
+
+ol,
+ul {
+  padding-left: var(--ft-space--8);
+}
+
+ol {
+  list-style-type: decimal-leading-zero;
+}
+
+li {
+  padding-left: var(--ft-space--1);
+
+  ol > &,
+  ul > &,
+  menu > &,
+  dir > &,
+  dl > & {
+    margin-bottom: var(--ft-space--1);
+    margin-top: var(--ft-space--1);
+  }
+}
+
+dt {
+  font-weight: var(--ft-font-weight--bold);
+  margin-top: var(--ft-space--2);
+}
+
+dd {
+  margin-bottom: var(--ft-space--2);
+  margin-left: 0;
+}

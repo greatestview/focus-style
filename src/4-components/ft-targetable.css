@@ -1,0 +1,27 @@
+.ft-targetable {
+  position: relative;
+}
+
+.ft-targetable__action {
+  color: var(--ft-color--interaction);
+  left: 0;
+  /* 0.25em = 1 space */
+  padding-right: 0.25em;
+  position: absolute;
+  text-decoration: none;
+  top: 0;
+  transform: translateX(-100%);
+
+  &::before {
+    content: "#";
+  }
+
+  .ft-targetable__action:not(:hover):not(:focus) {
+    opacity: var(--ft-opacity--0);
+  }
+
+  .ft-targetable:hover > &:not(:hover),
+  .ft-targetable:target > &:not(:hover) {
+    opacity: var(--ft-opacity--100);
+  }
+}

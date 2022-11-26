@@ -1,0 +1,13 @@
+.ft-comment-form[data-is-collapsed="true"] {
+
+}
+
+.ft-comment-form[data-is-collapsed="true"] .comment-notes,
+.ft-comment-form[data-is-collapsed="true"] .comment-form-author,
+.ft-comment-form[data-is-collapsed="true"] .comment-form-email,
+.ft-comment-form[data-is-collapsed="true"] .comment-form-url,
+.ft-comment-form[data-is-collapsed="true"] .logged-in-as,
+.ft-comment-form[data-is-collapsed="true"] .comment-form-comment label {
+  max-height: 0;
+  opacity: var(--ft-opacity--0);
+}
