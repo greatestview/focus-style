@@ -30,7 +30,7 @@
  */
 
 html {
-  font-family: var(--ft-font-family--default); /* 2 */
+  font-family: var(--fs-font-family--default); /* 2 */
   word-break: break-word; /* 6 */
 }
 
@@ -46,7 +46,7 @@ pre,
 code,
 kbd,
 samp {
-  font-family: var(--ft-font-family--mono); /* 1 */
+  font-family: var(--fs-font-family--mono); /* 1 */
 }
 
 /* Embedded content

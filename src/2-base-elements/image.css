@@ -6,7 +6,7 @@ img,
 svg {
   display: block;
   height: auto;
-  max-width: var(--ft-max-width--full);
+  max-width: var(--fs-max-width--full);
 }
 
 svg {
@@ -18,34 +18,34 @@ svg {
 }
 
 img {
-  border-radius: var(--ft-border-radius--default);
-  box-shadow: var(--ft-shadow--default);
+  border-radius: var(--fs-border-radius--default);
+  box-shadow: var(--fs-shadow--default);
   /* broken image styling */
-  color: var(--ft-color--text-2);
-  font-size: var(--ft-font-size--sm);
-  line-height: var(--ft-line-height--sm);
+  color: var(--fs-color--text-2);
+  font-size: var(--fs-font-size--sm);
+  line-height: var(--fs-line-height--sm);
   text-align: center;
 }
 
 figure {
-  --ft-figure-space: var(--ft-space--6);
+  --fs-figure-space: var(--fs-space--6);
   display: block;
-  margin: var(--ft-figure-space) 0;
-  max-width: var(--ft-max-width--full);
+  margin: var(--fs-figure-space) 0;
+  max-width: var(--fs-max-width--full);
 
-  @media (--ft-viewport--lg) {
-    --ft-figure-space: var(--ft-space--8);
+  @media (--fs-viewport--lg) {
+    --fs-figure-space: var(--fs-space--8);
   }
 }
 
 figcaption {
-  color: var(--ft-color--text-1);
+  color: var(--fs-color--text-1);
   display: block;
-  font-family: var(--ft-font-family--default);
-  font-size: var(--ft-font-size--sm);
-  line-height: var(--ft-line-height--sm);
-  margin-bottom: var(--ft-space--2);
-  margin-top: var(--ft-space--2);
+  font-family: var(--fs-font-family--default);
+  font-size: var(--fs-font-size--sm);
+  line-height: var(--fs-line-height--sm);
+  margin-bottom: var(--fs-space--2);
+  margin-top: var(--fs-space--2);
   text-align: left;
   width: 100%;
 }

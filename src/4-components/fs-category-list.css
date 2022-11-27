@@ -1,0 +1,9 @@
+.fs-category-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.fs-category-list > *:not(:last-child)::after {
+  color: var(--fs-color--text-2);
+  content: " / ";
+}

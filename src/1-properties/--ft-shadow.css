@@ -1,6 +1,0 @@
-:root {
-  --ft-shadow--default                 : 0 var(--ft-space--0) var(--ft-space--2) 0 var(--ft-color--shadow);
-  --ft-shadow--interaction-transparent : 0 0 var(--ft-space--2) 0 transparent;
-  --ft-shadow--interaction             : 0 var(--ft-space--0) var(--ft-space--2) 0 var(--ft-color--interaction);
-  --ft-shadow--interaction-cta         : 0 var(--ft-space--0) var(--ft-space--2) 0 var(--ft-color--interaction-cta);
-}

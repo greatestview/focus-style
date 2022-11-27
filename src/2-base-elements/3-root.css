@@ -3,8 +3,8 @@
  */
 
 :root {
-  background-color: var(--ft-color--site-background);
-  color: var(--ft-color--text);
-  font-size: var(--ft-font-size-root);
-  line-height: var(--ft-line-height-root);
+  background-color: var(--fs-color--site-background);
+  color: var(--fs-color--text);
+  font-size: var(--fs-font-size-root);
+  line-height: var(--fs-line-height-root);
 }

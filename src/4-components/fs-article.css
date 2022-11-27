@@ -1,0 +1,22 @@
+.fs-article__content p,
+.fs-article__content li {
+  font-family: var(--fs-font-family--serif);
+}
+
+.fs-article__title {
+  color: var(--fs-color--secondary-dimmed);
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.fs-article__meta-header {
+  --fs-color--interaction: var(--fs-color--text-2);
+}
+
+.fs-article__meta-footer {
+  color: var(--fs-color--text-2);
+}
+
+.fs-article__categories {
+  order: -1;
+}

@@ -4,12 +4,12 @@
 
 :disabled {
   cursor: not-allowed;
-  opacity: var(--ft-opacity--50);
+  opacity: var(--fs-opacity--50);
 }
 
 ::placeholder {
-  color: var(--ft-color--text-2);
-  opacity: var(--ft-opacity--100);
+  color: var(--fs-color--text-2);
+  opacity: var(--fs-opacity--100);
 }
 
 /* @see http://adrianroselli.com/2019/09/under-engineered-text-boxen.html */
@@ -17,7 +17,7 @@ button,
 input,
 select,
 textarea,
-.ft-button {
+.fs-button {
   color: inherit;
   font: inherit;
   letter-spacing: inherit;
@@ -28,27 +28,27 @@ button,
 [type="submit"],
 [type="button"],
 [type="reset"],
-.ft-button {
+.fs-button {
   appearance: none;
   background-color: transparent;
-  border-color: var(--ft-color--interaction);
-  border-radius: var(--ft-border-radius--default);
+  border-color: var(--fs-color--interaction);
+  border-radius: var(--fs-border-radius--default);
   border-style: solid;
-  border-width: var(--ft-border-width--default);
-  box-shadow: var(--ft-shadow--interaction-transparent);
-  color: var(--ft-color--interaction);
+  border-width: var(--fs-border-width--default);
+  box-shadow: var(--fs-shadow--interaction-transparent);
+  color: var(--fs-color--interaction);
   cursor: pointer;
   display: inline-block;
-  padding: var(--ft-space--2) var(--ft-space--6);
-  transition: box-shadow var(--ft-transition-duration--default) var(--ft-transition-timing-function--default);
+  padding: var(--fs-space--2) var(--fs-space--6);
+  transition: box-shadow var(--fs-transition-duration--default) var(--fs-transition-timing-function--default);
   word-break: normal;
 
   &:hover {
-    opacity: var(--ft-opacity--75);
+    opacity: var(--fs-opacity--75);
   }
 
   &:focus {
-    box-shadow: var(--ft-shadow--interaction);
+    box-shadow: var(--fs-shadow--interaction);
     outline: none;
   }
 
@@ -58,9 +58,9 @@ button,
 }
 
 [type="submit"],
-.ft-button--submit {
-  background-color: var(--ft-color--interaction);
-  color: var(--ft-color--white);
+.fs-button--submit {
+  background-color: var(--fs-color--interaction);
+  color: var(--fs-color--white);
 }
 
 [type="text"],
@@ -81,36 +81,36 @@ textarea,
 select {
   appearance: none;
   background-color: transparent;
-  border-color: var(--ft-color--border);
-  border-radius: var(--ft-border-radius--default);
+  border-color: var(--fs-color--border);
+  border-radius: var(--fs-border-radius--default);
   border-style: solid;
-  border-width: var(--ft-border-width--default);
-  box-shadow: var(--ft-shadow--interaction-transparent);
-  max-width: var(--ft-max-width--xs);
-  padding: var(--ft-space--2) var(--ft-space--3);
-  transition: box-shadow var(--ft-transition-duration--default) var(--ft-transition-timing-function--default);
+  border-width: var(--fs-border-width--default);
+  box-shadow: var(--fs-shadow--interaction-transparent);
+  max-width: var(--fs-max-width--xs);
+  padding: var(--fs-space--2) var(--fs-space--3);
+  transition: box-shadow var(--fs-transition-duration--default) var(--fs-transition-timing-function--default);
   width: 100%;
 
   &:focus {
-    border-color: var(--ft-color--interaction);
-    box-shadow: var(--ft-shadow--interaction);
+    border-color: var(--fs-color--interaction);
+    box-shadow: var(--fs-shadow--interaction);
     outline: none;
   }
 }
 
 textarea {
-  max-width: var(--ft-max-width--sm);
+  max-width: var(--fs-max-width--sm);
 }
 
 label {
   display: block;
-  margin-bottom: var(--ft-space--1);
-  margin-top: var(--ft-space--1);
+  margin-bottom: var(--fs-space--1);
+  margin-top: var(--fs-space--1);
 
   [type="checkbox"] + &,
   [type="radio"] + & {
     display: inline;
-    margin-left: var(--ft-space--2);
+    margin-left: var(--fs-space--2);
   }
 }
 
@@ -119,26 +119,26 @@ label {
   vertical-align: middle;
 
   label > & {
-    margin-right: var(--ft-space--2);
+    margin-right: var(--fs-space--2);
   }
 }
 
 fieldset {
-  border-color: var(--ft-color--border);
-  border-radius: var(--ft-border-radius--lg);
-  border-width: var(--ft-border-width--default);
+  border-color: var(--fs-color--border);
+  border-radius: var(--fs-border-radius--lg);
+  border-width: var(--fs-border-width--default);
   border-style: solid;
-  padding: var(--ft-space--4);
+  padding: var(--fs-space--4);
 }
 
 legend {
-  color: var(--ft-color--text-1);
-  font-size: var(--ft-font-size--sm);
-  letter-spacing: var(--ft-letter-spacing--wide);
-  line-height: var(--ft-line-height--sm);
-  margin-left: calc(-1 * var(--ft-space--2));
-  margin-right: calc(-1 * var(--ft-space--2));
-  padding-left: var(--ft-space--2);
-  padding-right: var(--ft-space--2);
+  color: var(--fs-color--text-1);
+  font-size: var(--fs-font-size--sm);
+  letter-spacing: var(--fs-letter-spacing--wide);
+  line-height: var(--fs-line-height--sm);
+  margin-left: calc(-1 * var(--fs-space--2));
+  margin-right: calc(-1 * var(--fs-space--2));
+  padding-left: var(--fs-space--2);
+  padding-right: var(--fs-space--2);
   text-transform: uppercase;
 }

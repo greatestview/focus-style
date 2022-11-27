@@ -1,0 +1,19 @@
+.fs-comment__author {
+  padding-right: var(--fs-space--1);
+}
+
+.fs-comment__metadata {
+  --fs-color--interaction: var(--fs-color--text-2);
+  --fs-color--text: var(--fs-color--text-2);
+  color: var(--fs-color--text);
+}
+
+.fs-comment__content > * {
+  --fs-blockquote-font-size: inherit;
+  --fs-blockquote-line-height: inherit;
+  --fs-blockquote-space: 0;
+}
+
+.fs-comment p {
+  font-family: var(--fs-font-family--serif);
+}

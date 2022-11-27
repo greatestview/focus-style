@@ -1,9 +1,0 @@
-/**
- * Best and simplest clearfix right now.
- */
-
-.ft-clearfix::after {
-  content: "";
-  display: block;
-  clear: both;
-}

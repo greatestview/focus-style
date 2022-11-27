@@ -8,80 +8,80 @@ h3,
 h4,
 h5,
 h6 {
-  color: var(--ft-color--strong);
-  font-weight: var(--ft-font-weight--extra-bold);
+  color: var(--fs-color--strong);
+  font-weight: var(--fs-font-weight--extra-bold);
 }
 
 h1 {
-  --ft-h1-space-bottom: var(--ft-space--6);
-  --ft-h1-space-top: var(--ft-space--14);
-  font-size: var(--ft-font-size--lg);
-  line-height: var(--ft-line-height--lg);
-  margin-bottom: var(--ft-h1-space-bottom);
-  margin-top: var(--ft-h1-space-top);
+  --fs-h1-space-bottom: var(--fs-space--6);
+  --fs-h1-space-top: var(--fs-space--14);
+  font-size: var(--fs-font-size--lg);
+  line-height: var(--fs-line-height--lg);
+  margin-bottom: var(--fs-h1-space-bottom);
+  margin-top: var(--fs-h1-space-top);
 
-  @media (--ft-viewport--md) {
-    font-size: var(--ft-font-size--xl);
-    line-height: var(--ft-line-height--xl);
+  @media (--fs-viewport--md) {
+    font-size: var(--fs-font-size--xl);
+    line-height: var(--fs-line-height--xl);
   }
 }
 
 h2 {
-  --ft-h2-space-bottom: var(--ft-space--6);
-  --ft-h2-space-top: var(--ft-space--10);
-  font-size: var(--ft-font-size--md);
-  line-height: var(--ft-line-height--md);
-  margin-bottom: var(--ft-h2-space-bottom);
-  margin-top: var(--ft-h2-space-top);
+  --fs-h2-space-bottom: var(--fs-space--6);
+  --fs-h2-space-top: var(--fs-space--10);
+  font-size: var(--fs-font-size--md);
+  line-height: var(--fs-line-height--md);
+  margin-bottom: var(--fs-h2-space-bottom);
+  margin-top: var(--fs-h2-space-top);
 
-  @media (--ft-viewport--md) {
-    --ft-h2-space-top: var(--ft-space--14);
-    font-size: var(--ft-font-size--lg);
-    line-height: var(--ft-line-height--lg);
+  @media (--fs-viewport--md) {
+    --fs-h2-space-top: var(--fs-space--14);
+    font-size: var(--fs-font-size--lg);
+    line-height: var(--fs-line-height--lg);
   }
 }
 
 h3 {
-  --ft-h3-space-bottom: var(--ft-space--6);
-  --ft-h3-space-top: var(--ft-space--6);
-  font-size: var(--ft-font-size--base);
-  line-height: var(--ft-line-height--base);
-  margin-bottom: var(--ft-h3-space-bottom);
-  margin-top: var(--ft-h3-space-top);
+  --fs-h3-space-bottom: var(--fs-space--6);
+  --fs-h3-space-top: var(--fs-space--6);
+  font-size: var(--fs-font-size--base);
+  line-height: var(--fs-line-height--base);
+  margin-bottom: var(--fs-h3-space-bottom);
+  margin-top: var(--fs-h3-space-top);
 
-  @media (--ft-viewport--md) {
-    --ft-h3-space-top: var(--ft-space--10);
-    font-size: var(--ft-font-size--md);
-    line-height: var(--ft-line-height--md);
+  @media (--fs-viewport--md) {
+    --fs-h3-space-top: var(--fs-space--10);
+    font-size: var(--fs-font-size--md);
+    line-height: var(--fs-line-height--md);
   }
 }
 
 h4,
 h5,
 h6 {
-  --ft-hx-space: var(--ft-space--6);
-  font-size: var(--ft-font-size--base);
-  line-height: var(--ft-line-height--base);
-  margin-bottom: var(--ft-hx-space);
-  margin-top: var(--ft-hx-space);
+  --fs-hx-space: var(--fs-space--6);
+  font-size: var(--fs-font-size--base);
+  line-height: var(--fs-line-height--base);
+  margin-bottom: var(--fs-hx-space);
+  margin-top: var(--fs-hx-space);
 }
 
 p {
-  --ft-p-space: var(--ft-space--4);
-  margin-bottom: var(--ft-p-space);
-  margin-top: var(--ft-p-space);
+  --fs-p-space: var(--fs-space--4);
+  margin-bottom: var(--fs-p-space);
+  margin-top: var(--fs-p-space);
 }
 
 a {
-  color: var(--ft-color--interaction);
+  color: var(--fs-color--interaction);
   text-decoration: underline;
 
   &:visited {
-    color: var(--ft-color--visited);
+    color: var(--fs-color--visited);
   }
 
   &:hover {
-    opacity: var(--ft-opacity--75);
+    opacity: var(--fs-opacity--75);
   }
 
   &:focus {
@@ -95,47 +95,47 @@ a {
 
 strong,
 b {
-  color: var(--ft-color--strong);
-  font-family: var(--ft-font-family--sans);
-  font-weight: var(--ft-font-weight--bold);
+  color: var(--fs-color--strong);
+  font-family: var(--fs-font-family--sans);
+  font-weight: var(--fs-font-weight--bold);
 }
 
 blockquote {
-  --ft-blockquote-font-size: inherit;
-  --ft-blockquote-line-height: inherit;
-  --ft-blockquote-margin-y: var(--ft-space--6);
-  --ft-blockquote-padding-x: var(--ft-space--10);
-  color: var(--ft-color--strong);
-  margin: var(--ft-blockquote-margin-y) 0;
-  padding-left: var(--ft-blockquote-padding-x);
-  padding-right: var(--ft-blockquote-padding-x);
+  --fs-blockquote-font-size: inherit;
+  --fs-blockquote-line-height: inherit;
+  --fs-blockquote-margin-y: var(--fs-space--6);
+  --fs-blockquote-padding-x: var(--fs-space--10);
+  color: var(--fs-color--strong);
+  margin: var(--fs-blockquote-margin-y) 0;
+  padding-left: var(--fs-blockquote-padding-x);
+  padding-right: var(--fs-blockquote-padding-x);
   position: relative;
 
-  @media (--ft-viewport--md) {
-    --ft-blockquote-font-size: var(--ft-font-size--md);
-    --ft-blockquote-line-height: var(--ft-line-height--md);
-    --ft-blockquote-margin-y: var(--ft-space--10);
-    --ft-blockquote-padding-x: var(--ft-space--12);
+  @media (--fs-viewport--md) {
+    --fs-blockquote-font-size: var(--fs-font-size--md);
+    --fs-blockquote-line-height: var(--fs-line-height--md);
+    --fs-blockquote-margin-y: var(--fs-space--10);
+    --fs-blockquote-padding-x: var(--fs-space--12);
   }
 }
 
 blockquote,
 blockquote > :not(cite) {
-  font-size: var(--ft-blockquote-font-size);
+  font-size: var(--fs-blockquote-font-size);
   font-style: italic;
-  line-height: var(--ft-blockquote-line-height);
+  line-height: var(--fs-blockquote-line-height);
 }
 
 cite {
   blockquote > & {
-    color: var(--ft-color--text-1);
+    color: var(--fs-color--text-1);
     display: block;
-    font-family: var(--ft-font-family--sans);
-    font-size: var(--ft-font-size--sm);
+    font-family: var(--fs-font-family--sans);
+    font-size: var(--fs-font-size--sm);
     font-style: normal;
-    line-height: var(--ft-line-height-sm);
-    margin-bottom: var(--ft-space--2);
-    margin-top: var(--ft-space--2);
+    line-height: var(--fs-line-height-sm);
+    margin-bottom: var(--fs-space--2);
+    margin-top: var(--fs-space--2);
   }
 }
 
@@ -150,61 +150,61 @@ q {
 }
 
 small {
-  font-size: var(--ft-font-size--sm);
-  line-height: var(--ft-line-height--sm);
+  font-size: var(--fs-font-size--sm);
+  line-height: var(--fs-line-height--sm);
 }
 
 :not(pre) > code,
 :not(pre) > kbd,
 :not(pre) > samp,
 pre {
-  font-family: var(--ft-font-family--mono);
-  font-size: calc(1em * var(--ft-font-x-height-scale--mono));
+  font-family: var(--fs-font-family--mono);
+  font-size: calc(1em * var(--fs-font-x-height-scale--mono));
 }
 
 pre {
-  --ft-pre-space: var(--ft-space--4);
-  background-color: var(--ft-color--background);
+  --fs-pre-space: var(--fs-space--4);
+  background-color: var(--fs-color--background);
   appearance: none;
-  border-radius: var(--ft-border-radius--default);
-  margin-bottom: var(--ft-pre-space);
-  margin-top: var(--ft-pre-space);
-  max-width: var(--ft-max-width--full);
+  border-radius: var(--fs-border-radius--default);
+  margin-bottom: var(--fs-pre-space);
+  margin-top: var(--fs-pre-space);
+  max-width: var(--fs-max-width--full);
   overflow: auto;
-  padding: var(--ft-space--4) var(--ft-space--3);
-  width: var(--ft-space--full);
+  padding: var(--fs-space--4) var(--fs-space--3);
+  width: var(--fs-space--full);
 }
 
 kbd {
-  color: var(--ft-color--white);
+  color: var(--fs-color--white);
 
   :not(pre) > & {
-    background-color: var(--ft-color--focus);
-    border-radius: var(--ft-border-radius--default);
-    color: var(--ft-color--white);
-    padding-left: var(--ft-space--1);
-    padding-right: var(--ft-space--1);
+    background-color: var(--fs-color--focus);
+    border-radius: var(--fs-border-radius--default);
+    color: var(--fs-color--white);
+    padding-left: var(--fs-space--1);
+    padding-right: var(--fs-space--1);
   }
 }
 
 code {
   :not(pre) > & {
-    background-color: var(--ft-color--background);
-    border-radius: var(--ft-border-radius--default);
-    padding-left: var(--ft-space--1);
-    padding-right: var(--ft-space--1);
+    background-color: var(--fs-color--background);
+    border-radius: var(--fs-border-radius--default);
+    padding-left: var(--fs-space--1);
+    padding-right: var(--fs-space--1);
   }
 }
 
 samp {
-  color: var(--ft-color--focus);
+  color: var(--fs-color--focus);
 
   :not(pre) > & {
-    padding-left: var(--ft-space--1);
-    padding-right: var(--ft-space--1);
+    padding-left: var(--fs-space--1);
+    padding-right: var(--fs-space--1);
   }
 }
 
 mark {
-  background-color: var(--ft-color--mark);
+  background-color: var(--fs-color--mark);
 }

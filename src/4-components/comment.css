@@ -5,10 +5,10 @@
 .logged-in-as,
 .comment-form-comment label {
   overflow: hidden;
-  max-height: var(--ft-space--24);
-  opacity: var(--ft-opacity--100);
+  max-height: var(--fs-space--24);
+  opacity: var(--fs-opacity--100);
   margin: 0;
-  transition: max-height var(--ft-transition-duration--default) var(--ft-transition-timing-function--default),
-    opacity var(--ft-transition-duration--default) var(--ft-transition-timing-function--default),
-    margin var(--ft-transition-duration--default) var(--ft-transition-timing-function--default);
+  transition: max-height var(--fs-transition-duration--default) var(--fs-transition-timing-function--default),
+    opacity var(--fs-transition-duration--default) var(--fs-transition-timing-function--default),
+    margin var(--fs-transition-duration--default) var(--fs-transition-timing-function--default);
 }

@@ -1,0 +1,7 @@
+.fs-logo {
+  color: var(--fs-color--interaction-cta);
+}
+
+.fs-logo > * {
+  --fs-gap-margin--space: var(--fs-space--3);
+}

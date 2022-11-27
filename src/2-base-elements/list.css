@@ -3,12 +3,12 @@
  */
 
 ::marker {
-  color: var(--ft-color--focus);
+  color: var(--fs-color--focus);
 
   ol > & {
-    font-size: var(--ft-font-size--sm);
-    font-weight: var(--ft-font-weight--bold);
-    line-height: var(--ft-line-height--sm);
+    font-size: var(--fs-font-size--sm);
+    font-weight: var(--fs-font-weight--bold);
+    line-height: var(--fs-line-height--sm);
   }
 }
 
@@ -17,14 +17,14 @@ ul,
 menu,
 dir,
 dl {
-  --ft-list-space: var(--ft-space--3);
-  margin-bottom: var(--ft-list-space);
-  margin-top: var(--ft-list-space);
+  --fs-list-space: var(--fs-space--3);
+  margin-bottom: var(--fs-list-space);
+  margin-top: var(--fs-list-space);
 }
 
 ol,
 ul {
-  padding-left: var(--ft-space--8);
+  padding-left: var(--fs-space--8);
 }
 
 ol {
@@ -32,24 +32,24 @@ ol {
 }
 
 li {
-  padding-left: var(--ft-space--1);
+  padding-left: var(--fs-space--1);
 
   ol > &,
   ul > &,
   menu > &,
   dir > &,
   dl > & {
-    margin-bottom: var(--ft-space--1);
-    margin-top: var(--ft-space--1);
+    margin-bottom: var(--fs-space--1);
+    margin-top: var(--fs-space--1);
   }
 }
 
 dt {
-  font-weight: var(--ft-font-weight--bold);
-  margin-top: var(--ft-space--2);
+  font-weight: var(--fs-font-weight--bold);
+  margin-top: var(--fs-space--2);
 }
 
 dd {
-  margin-bottom: var(--ft-space--2);
+  margin-bottom: var(--fs-space--2);
   margin-left: 0;
 }

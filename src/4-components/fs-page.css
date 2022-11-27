@@ -1,0 +1,7 @@
+.fs-page {
+  min-height: 100vh;
+}
+
+.fs-page__align-bottom {
+  margin-top: auto;
+}
