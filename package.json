@@ -1,6 +1,6 @@
 {
   "name": "focus-style",
-  "version": "2.1.0",
+  "version": "3.0.0",
   "description": "Focus Style is a refined component and utility class based CSS set, a reference of latest best practices and should be used as a boilerplate for building new frontends.",
   "scripts": {
     "watch": "postcss src/style.css -o dist/style.css --watch",
