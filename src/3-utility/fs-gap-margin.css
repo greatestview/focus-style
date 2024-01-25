@@ -8,12 +8,12 @@
   margin: 0;
 }
 
-.fs-gap-margin--row > *:not(:last-child):not(.fs-gap-margin__exclude) {
-  margin-right: var(--fs-gap-margin--space);
+.fs-gap-margin--inline > *:not(:last-child):not(.fs-gap-margin__exclude) {
+  margin-inline-end: var(--fs-gap-margin--space);
 }
 
-.fs-gap-margin--col > *:not(:last-child):not(.fs-gap-margin__exclude) {
-  margin-bottom: var(--fs-gap-margin--space);
+.fs-gap-margin--block > *:not(:last-child):not(.fs-gap-margin__exclude) {
+  margin-block-end: var(--fs-gap-margin--space);
 }
 
 .fs-gap-margin--0 > * {

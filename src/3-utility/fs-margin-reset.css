@@ -2,7 +2,10 @@
   margin: 0;
 }
 
-.fs-margin-reset--y {
-  margin-bottom: 0;
-  margin-top: 0;
+.fs-margin-reset--inline {
+  margin-inline: 0
+}
+
+.fs-margin-reset--block {
+  margin-block: 0;
 }
