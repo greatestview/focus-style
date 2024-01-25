@@ -38,22 +38,24 @@ figure {
   }
 }
 
-figcaption {
-  color: var(--fs-color--text-1);
-  display: block;
-  font-family: var(--fs-font-family--default);
-  font-size: var(--fs-font-size--sm);
-  line-height: var(--fs-line-height--sm);
-  margin-bottom: var(--fs-space--2);
-  margin-top: var(--fs-space--2);
-  text-align: left;
-  width: 100%;
-}
+@scope (figcaption) {
+  & {
+    color: var(--fs-color--text-1);
+    display: block;
+    font-family: var(--fs-font-family--default);
+    font-size: var(--fs-font-size--sm);
+    line-height: var(--fs-line-height--sm);
+    margin-bottom: var(--fs-space--2);
+    margin-top: var(--fs-space--2);
+    text-align: left;
+    width: 100%;
+  }
 
-figcaption > :first-child {
-  margin-top: 0;
-}
+  & > :first-child {
+    margin-top: 0;
+  }
 
-figcaption > :last-child {
-  margin-bottom: 0;
+  & > :last-child {
+    margin-bottom: 0;
+  }
 }

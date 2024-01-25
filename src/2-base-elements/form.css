@@ -107,15 +107,19 @@ label {
   margin-bottom: var(--fs-space--1);
   margin-top: var(--fs-space--1);
 
-  [type="checkbox"] + &,
-  [type="radio"] + & {
+  input:where(
+    [type="checkbox"],
+    [type="radio"]
+  ) + & {
     display: inline;
     margin-left: var(--fs-space--2);
   }
 }
 
-[type="checkbox"],
-[type="radio"] {
+input:where(
+  [type="checkbox"],
+  [type="radio"]
+) {
   vertical-align: middle;
 
   label > & {
