@@ -16,12 +16,11 @@
     content: "#";
   }
 
-  .fs-targetable__action:not(:hover):not(:focus) {
+  .fs-targetable__action:not(:hover, :focus) {
     opacity: var(--fs-opacity--0);
   }
 
-  .fs-targetable:hover > &:not(:hover),
-  .fs-targetable:target > &:not(:hover) {
+  .fs-targetable:is(:hover, :target) > &:not(:hover) {
     opacity: var(--fs-opacity--100);
   }
 }

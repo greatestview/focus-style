@@ -2,12 +2,14 @@
 
 }
 
-.fs-comment-form[data-is-collapsed="true"] .comment-notes,
-.fs-comment-form[data-is-collapsed="true"] .comment-form-author,
-.fs-comment-form[data-is-collapsed="true"] .comment-form-email,
-.fs-comment-form[data-is-collapsed="true"] .comment-form-url,
-.fs-comment-form[data-is-collapsed="true"] .logged-in-as,
-.fs-comment-form[data-is-collapsed="true"] .comment-form-comment label {
+.fs-comment-form[data-is-collapsed="true"] :is(
+  .comment-notes,
+  .comment-form-author,
+  .comment-form-email,
+  .comment-form-url,
+  .logged-in-as,
+  .comment-form-comment label
+) {
   max-height: 0;
   opacity: var(--fs-opacity--0);
 }

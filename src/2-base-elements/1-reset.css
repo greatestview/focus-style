@@ -17,9 +17,11 @@ body {
   margin: 0;
 }
 
-*,
-*::after,
-*::before {
+:is(
+  *,
+  *::after,
+  *::before
+) {
   box-sizing: border-box;
   background-repeat: no-repeat;
 }

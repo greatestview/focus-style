@@ -1,5 +1,4 @@
-.fs-article__content p,
-.fs-article__content li {
+.fs-article__content :is(p, li) {
   font-family: var(--fs-font-family--serif);
 }
 

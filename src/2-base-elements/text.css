@@ -154,9 +154,7 @@ small {
   line-height: var(--fs-line-height--sm);
 }
 
-:not(pre) > code,
-:not(pre) > kbd,
-:not(pre) > samp,
+:not(pre) > :is(code, kbd, samp),
 pre {
   font-family: var(--fs-font-family--mono);
   font-size: calc(1em * var(--fs-font-x-height-scale--mono));
