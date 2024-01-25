@@ -25,9 +25,16 @@ textarea,
 }
 
 button,
-[type="submit"],
-[type="button"],
-[type="reset"],
+button:where(
+  [type="submit"],
+  [type="button"],
+  [type="reset"]
+),
+input:where(
+  [type="submit"],
+  [type="button"],
+  [type="reset"]
+),
 .fs-button {
   appearance: none;
   background-color: transparent;
@@ -63,20 +70,22 @@ button,
   color: var(--fs-color--white);
 }
 
-[type="text"],
-[type="password"],
-[type="url"],
-[type="email"],
-[type="tel"],
-[type="search"],
-[type="number"],
-[type="date"],
-[type="month"],
-[type="week"],
-[type="datetime"],
-[type="datetime-local"],
-[type="time"],
-[type="file"],
+input:where(
+  [type="text"],
+  [type="password"],
+  [type="url"],
+  [type="email"],
+  [type="tel"],
+  [type="search"],
+  [type="number"],
+  [type="date"],
+  [type="month"],
+  [type="week"],
+  [type="datetime"],
+  [type="datetime-local"],
+  [type="time"],
+  [type="file"]
+),
 textarea,
 select {
   appearance: none;
