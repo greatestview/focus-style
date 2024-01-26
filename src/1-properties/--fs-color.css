@@ -4,29 +4,29 @@
    */
 
   /* Brand */
-  --fs-color--primary           : hsl(336, 77%, 50%);
-  --fs-color--secondary         : hsl(191, 67%, 46%);
-  --fs-color--secondary-dimmed  : hsl(191, 82%, 31%);
+  --fs-color--primary           : hsl(336deg 77% 50%);
+  --fs-color--secondary         : hsl(191deg 67% 46%);
+  --fs-color--secondary-dimmed  : hsl(191deg 82% 31%);
 
   /* Grayscale */
-  --fs-color--black             : hsla(0, 0%, 0%, .87);
-  --fs-color--black-1           : hsla(0, 0%, 0%, .66 );
-  --fs-color--black-2           : hsla(0, 0%, 0%, .5 );
-  --fs-color--black-3           : hsla(0, 0%, 0%, .2 );
-  --fs-color--black-4           : hsla(0, 0%, 0%, .05 );
-  --fs-color--white             : hsla(0, 0%, 100%, .87);
-  --fs-color--white-1           : hsla(0, 0%, 100%, .66 );
-  --fs-color--white-2           : hsla(0, 0%, 100%, .5 );
-  --fs-color--white-3           : hsla(0, 0%, 100%, .2 );
-  --fs-color--white-4           : hsla(0, 0%, 100%, .1 );
+  --fs-color--black             : hsl(0deg 0% 0% / .87);
+  --fs-color--black-1           : hsl(0deg 0% 0% / .66 );
+  --fs-color--black-2           : hsl(0deg 0% 0% / .5 );
+  --fs-color--black-3           : hsl(0deg 0% 0% / .2 );
+  --fs-color--black-4           : hsl(0deg 0% 0% / .05 );
+  --fs-color--white             : hsl(0deg 0% 100% / .87);
+  --fs-color--white-1           : hsl(0deg 0% 100% / .66 );
+  --fs-color--white-2           : hsl(0deg 0% 100% / .5 );
+  --fs-color--white-3           : hsl(0deg 0% 100% / .2 );
+  --fs-color--white-4           : hsl(0deg 0% 100% / .1 );
 
   /* Form validation */
-  --fs-color--form-error        : hsla(10, 100%, 50%, .24);
-  --fs-color--form-warning      : hsla(42, 100%, 50%, .24);
-  --fs-color--form-success      : hsla(110, 100%, 50%, .24);
+  --fs-color--form-error        : hsl(10deg 100% 50% / .24);
+  --fs-color--form-warning      : hsl(42deg 100% 50% / .24);
+  --fs-color--form-success      : hsl(110deg 100% 50% / .24);
 
   /* Other */
-  --fs-color--mark              : hsla(42, 100%, 50%, .24);
+  --fs-color--mark              : hsl(42deg 100% 50% / .24);
 
   /* Social colors from @url http://brandcolors.net */
   --fs-color--social-facebook   : #3b5998;
