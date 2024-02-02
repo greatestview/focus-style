@@ -101,18 +101,18 @@ b {
 blockquote {
   --fs-blockquote-font-size: inherit;
   --fs-blockquote-line-height: inherit;
-  --fs-blockquote-margin-y: var(--fs-space--6);
-  --fs-blockquote-padding-x: var(--fs-space--10);
+  --fs-blockquote-margin-block: var(--fs-space--6);
+  --fs-blockquote-padding-inline: var(--fs-space--10);
   color: var(--fs-color--strong);
-  margin: var(--fs-blockquote-margin-y) 0;
-  padding-inline: var(--fs-blockquote-padding-x);
+  margin: var(--fs-blockquote-margin-block) 0;
+  padding-inline: var(--fs-blockquote-padding-inline);
   position: relative;
 
   @media (--fs-viewport--md) {
     --fs-blockquote-font-size: var(--fs-font-size--md);
     --fs-blockquote-line-height: var(--fs-line-height--md);
-    --fs-blockquote-margin-y: var(--fs-space--10);
-    --fs-blockquote-padding-x: var(--fs-space--12);
+    --fs-blockquote-margin-block: var(--fs-space--10);
+    --fs-blockquote-padding-inline: var(--fs-space--12);
   }
 }
 
