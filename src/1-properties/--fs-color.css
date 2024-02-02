@@ -4,31 +4,31 @@
    */
 
   /* Brand */
-  --fs-color--primary           : hsl(336deg 77% 50%);
-  --fs-color--secondary         : hsl(191deg 67% 46%);
-  /* @todo Once it's supported, change to hsl(from var(--fs-color--secondary) h calc(s + 15%) calc(l - 15%)); */
-  --fs-color--secondary-dimmed  : hsl(191deg 82% 31%);
+  --fs-color--primary           : oklch(59.51% 0.226 5.27);
+  --fs-color--secondary         : oklch(67.5% 0.112 217.32);
+  /* @todo Once it's supported, change to oklch(from var(--fs-color--secondary) calc(l - 14.47%) calc(c - 0.019) h); */
+  --fs-color--secondary-dimmed  : oklch(53.03% 0.093 217.32);
 
   /* Grayscale */
-  --fs-color--black             : hsl(0deg 0% 0% / .87);
-  /* @todo Once it's supported, change to hsl(from var(--fs-color--black) h s l / .66 ); */
-  --fs-color--black-1           : hsl(0deg 0% 0% / .66 );
-  --fs-color--black-2           : hsl(0deg 0% 0% / .5 );
-  --fs-color--black-3           : hsl(0deg 0% 0% / .2 );
-  --fs-color--black-4           : hsl(0deg 0% 0% / .05 );
-  --fs-color--white             : hsl(0deg 0% 100% / .87);
-  --fs-color--white-1           : hsl(0deg 0% 100% / .66 );
-  --fs-color--white-2           : hsl(0deg 0% 100% / .5 );
-  --fs-color--white-3           : hsl(0deg 0% 100% / .2 );
-  --fs-color--white-4           : hsl(0deg 0% 100% / .1 );
+  --fs-color--black             : oklch(0% 0 0 / 87%);
+  /* @todo Once it's supported, change to oklch(from var(--fs-color--black) l c h / .66 ); */
+  --fs-color--black-1           : oklch(0% 0 0 / 66%);
+  --fs-color--black-2           : oklch(0% 0 0 / 50%);
+  --fs-color--black-3           : oklch(0% 0 0 / 20%);
+  --fs-color--black-4           : oklch(0% 0 0 / 5%);
+  --fs-color--white             : oklch(100% 0 0 / 87%);
+  --fs-color--white-1           : oklch(100% 0 0 / 66%);
+  --fs-color--white-2           : oklch(100% 0 0 / 50%);
+  --fs-color--white-3           : oklch(100% 0 0 / 20%);
+  --fs-color--white-4           : oklch(100% 0 0 / 10%);
 
   /* Form validation */
-  --fs-color--form-error        : hsl(10deg 100% 50% / .24);
-  --fs-color--form-warning      : hsl(42deg 100% 50% / .24);
-  --fs-color--form-success      : hsl(110deg 100% 50% / .24);
+  --fs-color--form-error        : oklch(64.12% 0.245 31.64 / 24%);
+  --fs-color--form-warning      : oklch(81.7% 0.17 77.69 / 24%);
+  --fs-color--form-success      : oklch(86.92% 0.29104947825009747 141.79577703098485 / 24%);
 
   /* Other */
-  --fs-color--mark              : hsl(42deg 100% 50% / .24);
+  --fs-color--mark              : oklch(81.7% 0.17 77.69 / 24%);
 
   /* Social colors from @url http://brandcolors.net */
   --fs-color--social-facebook   : #3b5998;
