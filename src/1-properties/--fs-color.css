@@ -6,10 +6,12 @@
   /* Brand */
   --fs-color--primary           : hsl(336deg 77% 50%);
   --fs-color--secondary         : hsl(191deg 67% 46%);
+  /* @todo Once it's supported, change to hsl(from var(--fs-color--secondary) h calc(s + 15%) calc(l - 15%)); */
   --fs-color--secondary-dimmed  : hsl(191deg 82% 31%);
 
   /* Grayscale */
   --fs-color--black             : hsl(0deg 0% 0% / .87);
+  /* @todo Once it's supported, change to hsl(from var(--fs-color--black) h s l / .66 ); */
   --fs-color--black-1           : hsl(0deg 0% 0% / .66 );
   --fs-color--black-2           : hsl(0deg 0% 0% / .5 );
   --fs-color--black-3           : hsl(0deg 0% 0% / .2 );
