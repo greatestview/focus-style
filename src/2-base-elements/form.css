@@ -113,15 +113,14 @@ textarea {
 
 label {
   display: block;
-  margin-bottom: var(--fs-space--1);
-  margin-top: var(--fs-space--1);
+  margin-block: var(--fs-space--1);
 
   input:where(
     [type="checkbox"],
     [type="radio"]
   ) + & {
     display: inline;
-    margin-left: var(--fs-space--2);
+    margin-inline-start: var(--fs-space--2);
   }
 }
 
@@ -132,7 +131,7 @@ input:where(
   vertical-align: middle;
 
   label > & {
-    margin-right: var(--fs-space--2);
+    margin-inline-end: var(--fs-space--2);
   }
 }
 
@@ -149,9 +148,7 @@ legend {
   font-size: var(--fs-font-size--sm);
   letter-spacing: var(--fs-letter-spacing--wide);
   line-height: var(--fs-line-height--sm);
-  margin-left: calc(-1 * var(--fs-space--2));
-  margin-right: calc(-1 * var(--fs-space--2));
-  padding-left: var(--fs-space--2);
-  padding-right: var(--fs-space--2);
+  margin-inline: calc(-1 * var(--fs-space--2));
+  padding-inline: var(--fs-space--2);
   text-transform: uppercase;
 }

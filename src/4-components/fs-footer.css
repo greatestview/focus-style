@@ -1,5 +1,4 @@
 .fs-footer {
   background-color: var(--fs-color--secondary-dimmed);
-  padding-bottom: var(--fs-space--8);
-  padding-top: var(--fs-space--8);
+  padding-block: var(--fs-space--8);
 }

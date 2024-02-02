@@ -1,6 +1,5 @@
 .fs-header {
-  padding-bottom: var(--fs-space--8);
-  padding-top: var(--fs-space--8);
+  padding-block: var(--fs-space--8);
 }
 
 .fs-header--is-inverted {

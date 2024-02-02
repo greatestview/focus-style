@@ -19,9 +19,9 @@
 .fs-teaser-pure__image {
   background-color: var(--fs-color--background);
   border-radius: var(--fs-border-radius--default);
-  float: left;
-  margin-bottom: var(--fs-grid--column-gap);
-  margin-right: var(--fs-grid--column-gap);
+  float: inline-start;
+  margin-block-end: var(--fs-grid--column-gap);
+  margin-inline-end: var(--fs-grid--column-gap);
   overflow: hidden;
   width: calc(4 * var(--fs-grid--column-width) - var(--fs-grid--column-gap));
 }
@@ -46,10 +46,7 @@
   &::before {
     content: "";
     position: absolute;
-    height: 100%;
-    left: 0;
-    top: 0;
-    width: 100%;
+    inset: 0;
   }
 
   &::after {

@@ -13,12 +13,12 @@ h6 {
 }
 
 h1 {
-  --fs-h1-space-bottom: var(--fs-space--6);
-  --fs-h1-space-top: var(--fs-space--14);
+  --fs-h1-space-block-start: var(--fs-space--14);
+  --fs-h1-space-block-end: var(--fs-space--6);
   font-size: var(--fs-font-size--lg);
   line-height: var(--fs-line-height--lg);
-  margin-bottom: var(--fs-h1-space-bottom);
-  margin-top: var(--fs-h1-space-top);
+  margin-block-start: var(--fs-h1-space-block-start);
+  margin-block-end: var(--fs-h1-space-block-end);
 
   @media (--fs-viewport--md) {
     font-size: var(--fs-font-size--xl);
@@ -27,30 +27,30 @@ h1 {
 }
 
 h2 {
-  --fs-h2-space-bottom: var(--fs-space--6);
-  --fs-h2-space-top: var(--fs-space--10);
+  --fs-h2-space-block-start: var(--fs-space--10);
+  --fs-h2-space-block-end: var(--fs-space--6);
   font-size: var(--fs-font-size--md);
   line-height: var(--fs-line-height--md);
-  margin-bottom: var(--fs-h2-space-bottom);
-  margin-top: var(--fs-h2-space-top);
+  margin-block-start: var(--fs-h2-space-block-start);
+  margin-block-end: var(--fs-h2-space-block-end);
 
   @media (--fs-viewport--md) {
-    --fs-h2-space-top: var(--fs-space--14);
+    --fs-h2-space-block-start: var(--fs-space--14);
     font-size: var(--fs-font-size--lg);
     line-height: var(--fs-line-height--lg);
   }
 }
 
 h3 {
-  --fs-h3-space-bottom: var(--fs-space--6);
-  --fs-h3-space-top: var(--fs-space--6);
+  --fs-h3-space-block-start: var(--fs-space--6);
+  --fs-h3-space-block-end: var(--fs-space--6);
   font-size: var(--fs-font-size--base);
   line-height: var(--fs-line-height--base);
-  margin-bottom: var(--fs-h3-space-bottom);
-  margin-top: var(--fs-h3-space-top);
+  margin-block-start: var(--fs-h3-space-block-start);
+  margin-block-end: var(--fs-h3-space-block-end);
 
   @media (--fs-viewport--md) {
-    --fs-h3-space-top: var(--fs-space--10);
+    --fs-h3-space-block-start: var(--fs-space--10);
     font-size: var(--fs-font-size--md);
     line-height: var(--fs-line-height--md);
   }
@@ -62,14 +62,12 @@ h6 {
   --fs-hx-space: var(--fs-space--6);
   font-size: var(--fs-font-size--base);
   line-height: var(--fs-line-height--base);
-  margin-bottom: var(--fs-hx-space);
-  margin-top: var(--fs-hx-space);
+  margin-block: var(--fs-hx-space);
 }
 
 p {
   --fs-p-space: var(--fs-space--4);
-  margin-bottom: var(--fs-p-space);
-  margin-top: var(--fs-p-space);
+  margin-block: var(--fs-p-space);
 }
 
 a {
@@ -107,8 +105,7 @@ blockquote {
   --fs-blockquote-padding-x: var(--fs-space--10);
   color: var(--fs-color--strong);
   margin: var(--fs-blockquote-margin-y) 0;
-  padding-left: var(--fs-blockquote-padding-x);
-  padding-right: var(--fs-blockquote-padding-x);
+  padding-inline: var(--fs-blockquote-padding-x);
   position: relative;
 
   @media (--fs-viewport--md) {
@@ -134,8 +131,7 @@ cite {
     font-size: var(--fs-font-size--sm);
     font-style: normal;
     line-height: var(--fs-line-height-sm);
-    margin-bottom: var(--fs-space--2);
-    margin-top: var(--fs-space--2);
+    margin-block: var(--fs-space--2);
   }
 }
 
@@ -165,8 +161,7 @@ pre {
   background-color: var(--fs-color--background);
   appearance: none;
   border-radius: var(--fs-border-radius--default);
-  margin-bottom: var(--fs-pre-space);
-  margin-top: var(--fs-pre-space);
+  margin-block: var(--fs-pre-space);
   max-width: var(--fs-max-width--full);
   overflow: auto;
   padding: var(--fs-space--4) var(--fs-space--3);
@@ -180,8 +175,7 @@ kbd {
     background-color: var(--fs-color--focus);
     border-radius: var(--fs-border-radius--default);
     color: var(--fs-color--white);
-    padding-left: var(--fs-space--1);
-    padding-right: var(--fs-space--1);
+    padding-inline: var(--fs-space--1);
   }
 }
 
@@ -189,8 +183,7 @@ code {
   :not(pre) > & {
     background-color: var(--fs-color--background);
     border-radius: var(--fs-border-radius--default);
-    padding-left: var(--fs-space--1);
-    padding-right: var(--fs-space--1);
+    padding-inline: var(--fs-space--1);
   }
 }
 
@@ -198,8 +191,7 @@ samp {
   color: var(--fs-color--focus);
 
   :not(pre) > & {
-    padding-left: var(--fs-space--1);
-    padding-right: var(--fs-space--1);
+    padding-inline: var(--fs-space--1);
   }
 }
 

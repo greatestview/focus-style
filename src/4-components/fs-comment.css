@@ -1,5 +1,5 @@
 .fs-comment__author {
-  padding-right: var(--fs-space--1);
+  padding-inline-end: var(--fs-space--1);
 }
 
 .fs-comment__metadata {
