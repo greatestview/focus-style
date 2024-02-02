@@ -45,6 +45,8 @@ figure {
     font-family: var(--fs-font-family--default);
     font-size: var(--fs-font-size--sm);
     line-height: var(--fs-line-height--sm);
+    /* We can’t use flexbox, because there might be <p>s inside figcaption or
+    just pure text */
     margin-block: var(--fs-space--2);
     text-align: start;
     width: 100%;
