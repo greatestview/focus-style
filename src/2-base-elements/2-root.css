@@ -3,6 +3,7 @@
  */
 
 :root {
+  accent-color: var(--fs-color--secondary);
   background-color: var(--fs-color--site-background);
   color: var(--fs-color--text);
   font-size: var(--fs-font-size-root);
