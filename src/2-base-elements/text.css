@@ -162,7 +162,7 @@ pre {
   appearance: none;
   border-radius: var(--fs-border-radius--default);
   margin-block: var(--fs-pre-space);
-  max-width: var(--fs-max-width--full);
+  max-inline-size: var(--fs-max-size--full);
   overflow: auto;
   padding: var(--fs-space--4) var(--fs-space--3);
   width: var(--fs-space--full);

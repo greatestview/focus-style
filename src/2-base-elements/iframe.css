@@ -3,5 +3,5 @@
  */
 
 iframe {
-  max-width: var(--fs-max-width--full);
+  max-width: var(--fs-max-size--full);
 }

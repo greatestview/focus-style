@@ -10,6 +10,6 @@
   .logged-in-as,
   .comment-form-comment label
 ) {
-  max-height: 0;
+  max-block-size: 0;
   opacity: var(--fs-opacity--0);
 }
