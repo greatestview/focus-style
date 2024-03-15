@@ -32,6 +32,7 @@ figure {
   display: block;
   margin: var(--fs-figure-space) 0;
   max-width: var(--fs-max-size--full);
+  width: min-content;
 
   @media (--fs-viewport--lg) {
     --fs-figure-space: var(--fs-space--8);
