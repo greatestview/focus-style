@@ -1,9 +1,7 @@
-@scope (.fs-list-reset) {
-  & {
-    list-style: none;
-    margin-block: 0;
-    padding-inline-start: 0;
-  }
+.fs-list-reset {
+  list-style: none;
+  margin-block: 0;
+  padding-inline-start: 0;
 
   .fs-grid > & {
     padding-inline-start: calc(var(--fs-grid--column-gap) / 2);
