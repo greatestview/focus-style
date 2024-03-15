@@ -45,24 +45,32 @@
   --fs-color--social-instagram  : #3f729b;
   --fs-color--social-snapchat   : #fffc00;
 
+  /* Define color scheme */
+  color-scheme: dark light;
+
   /**
    * Color properties, which reference colors from the palette.
-   * Should be used for overrides.
+   * Should be used instead of the color palette properties.
    */
-  --fs-color--site-background   : var(--fs-color--white);
-  --fs-color--background        : var(--fs-color--black-4);
   --fs-color--shadow            : var(--fs-color--black-4);
-  --fs-color--border            : var(--fs-color--black-3);
   --fs-color--focus             : var(--fs-color--primary);
   --fs-color--interaction       : var(--fs-color--secondary);
   --fs-color--interaction-cta   : var(--fs-color--primary);
   --fs-color--visited           : var(--fs-color--secondary-dimmed);
-  --fs-color--strong            : var(--fs-color--black);
-  --fs-color--text              : var(--fs-color--black);
-  --fs-color--text-1            : var(--fs-color--black-1);
-  --fs-color--text-2            : var(--fs-color--black-2);
+
+  @media (prefers-color-scheme: light) {
+    color-scheme: light;
+    --fs-color--site-background   : var(--fs-color--white);
+    --fs-color--background        : var(--fs-color--black-4);
+    --fs-color--border            : var(--fs-color--black-3);
+    --fs-color--strong            : var(--fs-color--black);
+    --fs-color--text              : var(--fs-color--black);
+    --fs-color--text-1            : var(--fs-color--black-1);
+    --fs-color--text-2            : var(--fs-color--black-2);
+  }
 
   @media (prefers-color-scheme: dark) {
+    color-scheme: dark;
     --fs-color--site-background   : var(--fs-color--black);
     --fs-color--background        : var(--fs-color--white-4);
     --fs-color--border            : var(--fs-color--white-3);
