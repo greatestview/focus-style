@@ -1,7 +1,3 @@
 .fs-header {
   padding-block: var(--fs-space--8);
 }
-
-.fs-header--is-inverted {
-  background-color: var(--fs-color--secondary-dimmed);
-}
