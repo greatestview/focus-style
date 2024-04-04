@@ -1,7 +1,5 @@
-@scope (.fs-grid) {
-  & {
-    padding-inline: var(--fs-grid--padding);
-  }
+.fs-grid {
+  padding-inline: var(--fs-grid--padding);
 
   /* Default grid child element */
   & > * {

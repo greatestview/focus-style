@@ -1,7 +1,6 @@
 {
   "plugins": {
     "postcss-easy-import": {},
-    "postcss-custom-media": {},
-    "postcss-nested": {}
+    "postcss-custom-media": {}
   }
 }

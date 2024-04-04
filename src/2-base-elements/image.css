@@ -32,25 +32,24 @@ figure {
   display: block;
   margin: var(--fs-figure-space) 0;
   max-width: var(--fs-max-size--full);
+  width: min-content;
 
   @media (--fs-viewport--lg) {
     --fs-figure-space: var(--fs-space--8);
   }
 }
 
-@scope (figcaption) {
-  & {
-    color: var(--fs-color--text-1);
-    display: block;
-    font-family: var(--fs-font-family--default);
-    font-size: var(--fs-font-size--sm);
-    line-height: var(--fs-line-height--sm);
-    /* We can’t use flexbox, because there might be <p>s inside figcaption or
-    just pure text */
-    margin-block: var(--fs-space--2);
-    text-align: start;
-    width: 100%;
-  }
+figcaption {
+  color: var(--fs-color--text-1);
+  display: block;
+  font-family: var(--fs-font-family--default);
+  font-size: var(--fs-font-size--sm);
+  line-height: var(--fs-line-height--sm);
+  /* We can’t use flexbox, because there might be <p>s inside figcaption or just
+  pure text with inline links. */
+  margin-block: var(--fs-space--2);
+  text-align: start;
+  width: 100%;
 
   & > :first-child {
     margin-block-start: 0;
