@@ -1,3 +1,7 @@
+/**
+ * @todo Replace with ul[class] & ul:not([class]) method
+ * @see https://www.youtube.com/watch?v=UWFrl79092w
+ */
 .fs-list-reset {
   list-style: none;
   margin-block: 0;
