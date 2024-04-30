@@ -22,4 +22,5 @@ body {
 *::before {
   box-sizing: border-box;
   background-repeat: no-repeat;
+  mask-repeat: no-repeat;
 }
