@@ -108,6 +108,7 @@ select {
 }
 
 textarea {
+  field-sizing: content;
   max-inline-size: var(--fs-max-size--sm);
 }
 
