@@ -31,18 +31,18 @@
   --fs-color--mark              : oklch(81.7% 0.17 77.69 / 24%);
 
   /* Social colors from @url http://brandcolors.net */
-  --fs-color--social-facebook   : #3b5998;
-  --fs-color--social-twitter    : #55acee;
-  --fs-color--social-whatsapp   : #4dc247;
-  --fs-color--social-pinterest  : #cc2127;
+  --fs-color--social-facebook   : #1877f2;
+  --fs-color--social-twitter    : #000000;
+  --fs-color--social-whatsapp   : #075e54;
+  --fs-color--social-pinterest  : #e60023;
   --fs-color--social-tumblr     : #35465c;
-  --fs-color--social-youtube    : #cd201f;
-  --fs-color--social-vimeo      : #1ab7ea;
+  --fs-color--social-youtube    : #ff0000;
+  --fs-color--social-vimeo      : #162221;
   --fs-color--social-soundcloud : #ff8800;
-  --fs-color--social-linkedin   : #0077b5;
-  --fs-color--social-xing       : #cfdc00;
+  --fs-color--social-linkedin   : #0a66c2;
+  --fs-color--social-xing       : #026466;
   --fs-color--social-disqus     : #2e9fff;
-  --fs-color--social-instagram  : #3f729b;
+  --fs-color--social-instagram  : #405de6;
   --fs-color--social-snapchat   : #fffc00;
 
   /* Define color scheme */
