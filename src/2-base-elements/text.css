@@ -9,7 +9,7 @@ h4,
 h5,
 h6 {
   color: var(--fs-color--strong);
-  font-weight: var(--fs-font-weight--extra-bold);
+  font-weight: var(--fs-font-weight--extrabold);
 }
 
 h1 {

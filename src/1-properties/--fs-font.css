@@ -1,9 +1,9 @@
 :root {
   /* Font weights */
   --fs-font-weight--normal      : 400;
-  --fs-font-weight--semi-bold   : 600;
+  --fs-font-weight--semibold    : 600;
   --fs-font-weight--bold        : 700;
-  --fs-font-weight--extra-bold  : 800;
+  --fs-font-weight--extrabold   : 800;
 
   /* Some typical font scales. Choose **one** for your --fs-font-size-scale. */
   --fs-font-size-scale--minor-second     : 1.067;
