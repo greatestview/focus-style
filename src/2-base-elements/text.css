@@ -165,6 +165,7 @@ pre {
   max-inline-size: var(--fs-max-size--full);
   overflow: auto;
   padding: var(--fs-space--4) var(--fs-space--3);
+  tab-size: 2;
   width: var(--fs-space--full);
 }
 
