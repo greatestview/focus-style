@@ -28,16 +28,15 @@
   --fs-font-family--default     : var(--fs-font-family--sans);
 
   /*
-  Be careful to **always** use both --fs-font-size--xy **and**
-  --fs-line-height--xy properties together as a pair with the same
-  dimension! Otherwise this typography system does not make sense.
-
-  Example:
-  h1 {
-    font-size: var(--fs-font-size--xl);
-    line-height: var(--fs-line-height--xl);
-  }
-  */
+   * Please ALWAYS use both font-size--xy AND line-height--xy properties
+   * together as a pair with the same dimension for a persistent typographic
+   * system. Example:
+   *
+   * h1 {
+   *   font-size: var(--cmpr--font-size--xl);
+   *   line-height: var(--cmpr--line-height--xl);
+   * }
+   */
 
   /* Font sizes, calculated via --fs-font-size-scale */
   --fs-font-size--sm   : calc(1rem * pow(var(--fs-font-size--scale), -1));
