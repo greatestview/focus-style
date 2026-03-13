@@ -40,11 +40,11 @@
   */
 
   /* Font sizes, calculated via --fs-font-size-scale */
-  --fs-font-size--sm            : calc(var(--fs-font-size--base) / var(--fs-font-size-scale));
-  --fs-font-size--base          : 1rem;
-  --fs-font-size--md            : calc(var(--fs-font-size--base) * var(--fs-font-size-scale));
-  --fs-font-size--lg            : calc(var(--fs-font-size--md)   * var(--fs-font-size-scale));
-  --fs-font-size--xl            : calc(var(--fs-font-size--lg)   * var(--fs-font-size-scale));
+  --fs-font-size--sm   : calc(1rem * pow(var(--fs-font-size--scale), -1));
+  --fs-font-size--base : calc(1rem * pow(var(--fs-font-size--scale), 0));
+  --fs-font-size--md   : calc(1rem * pow(var(--fs-font-size--scale), 1));
+  --fs-font-size--lg   : calc(1rem * pow(var(--fs-font-size--scale), 2));
+  --fs-font-size--xl   : calc(1rem * pow(var(--fs-font-size--scale), 3));
 
   /*
   Advanced typography: X-Height
