@@ -45,6 +45,7 @@
   --fs-font-size--md   : calc(1rem * pow(var(--fs-font-size--scale), 1));
   --fs-font-size--lg   : calc(1rem * pow(var(--fs-font-size--scale), 2));
   --fs-font-size--xl   : calc(1rem * pow(var(--fs-font-size--scale), 3));
+  --fs-font-size--xxl  : calc(1rem * pow(var(--fs-font-size--scale), 4));
 
   /*
   Advanced typography: X-Height

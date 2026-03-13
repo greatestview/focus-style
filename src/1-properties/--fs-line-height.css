@@ -23,4 +23,5 @@
   --fs-line-height--md   : calc(var(--fs-line-height--root) * pow(var(--fs-line-height--scale), 1));
   --fs-line-height--lg   : calc(var(--fs-line-height--root) * pow(var(--fs-line-height--scale), 2));
   --fs-line-height--xl   : calc(var(--fs-line-height--root) * pow(var(--fs-line-height--scale), 3));
+  --fs-line-height--xxl  : calc(var(--fs-line-height--root) * pow(var(--fs-line-height--scale), 4));
 }
