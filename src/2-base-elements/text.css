@@ -130,7 +130,7 @@ cite {
     font-family: var(--fs-font-family--sans);
     font-size: var(--fs-font-size--sm);
     font-style: normal;
-    line-height: var(--fs-line-height-sm);
+    line-height: var(--fs-line-height--sm);
     margin-block: var(--fs-space--2);
   }
 }
