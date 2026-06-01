@@ -9,13 +9,13 @@
 
   /* Grayscale */
   --fs-color--black             : oklch(0% 0 0 / 87%);
-  --fs-color--black-1           : oklch(from var(--fs-color--black) l c h / .66 );
-  --fs-color--black-2           : oklch(from var(--fs-color--black) l c h / .50 );
+  --fs-color--black-1           : oklch(from var(--fs-color--black) l c h / 66%);
+  --fs-color--black-2           : oklch(from var(--fs-color--black) l c h / 50%);
   --fs-color--black-3           : oklch(from var(--fs-color--black) l c h / 20%);
   --fs-color--black-4           : oklch(from var(--fs-color--black) l c h / 5%);
   --fs-color--white             : oklch(100% 0 0 / 87%);
-  --fs-color--white-1           : oklch(from var(--fs-color--white) l c h / .66 );
-  --fs-color--white-2           : oklch(from var(--fs-color--white) l c h / .50 );
+  --fs-color--white-1           : oklch(from var(--fs-color--white) l c h / 66%);
+  --fs-color--white-2           : oklch(from var(--fs-color--white) l c h / 50%);
   --fs-color--white-3           : oklch(from var(--fs-color--white) l c h / 20%);
   --fs-color--white-4           : oklch(from var(--fs-color--white) l c h / 10%);
 
