@@ -1,0 +1,4 @@
+/* Border width */
+:root {
+  --fs-border-width--default  : 2px;
+}
