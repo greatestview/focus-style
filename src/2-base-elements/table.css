@@ -41,11 +41,11 @@ th {
   color: var(--fs-color--strong);
   font-weight: var(--fs-font-weight--bold);
   text-align: start;
-  vertical-align: bottom; /* @todo Write in modern CSS with logical properties */
+  vertical-align: bottom;
 }
 
 td {
-  vertical-align: text-top; /* @todo Write in modern CSS with logical properties */
+  vertical-align: text-top;
 }
 
 caption {
