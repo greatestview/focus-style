@@ -1,8 +1,7 @@
+/**
+ * Color: Palette
+ */
 :root {
-  /**
-   * Color palette
-   */
-
   /* Brand */
   --fs-color--primary           : oklch(59.51% 0.226 5.27);
   --fs-color--secondary         : oklch(67.5% 0.112 217.32);

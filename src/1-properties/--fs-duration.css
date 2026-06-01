@@ -1,0 +1,9 @@
+/**
+ * Motion durations
+ */
+:root {
+  --fs-duration--fast    : 0.15s;
+  --fs-duration--normal  : 0.3s;
+  --fs-duration--slow    : 0.6s;
+  --fs-duration--default : var(--fs-duration--normal);
+}
