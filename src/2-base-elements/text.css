@@ -153,7 +153,7 @@ small {
 :not(pre) > :is(code, kbd, samp),
 pre {
   font-family: var(--fs-font-family--mono);
-  font-size: calc(1em * var(--fs-font-x-height-scale--mono));
+  font-size: calc(1em * var(--fs-font-size-x-height-scale--mono));
 }
 
 pre {
