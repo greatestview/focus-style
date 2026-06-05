@@ -15,10 +15,6 @@
 	}
 
 	& > :is(ol, ul) {
-		padding-inline-start: calc(
-			var(--fs-grid--column-gap) /
-			2 +
-			var(--fs-space--8)
-		);
+		padding-inline-start: calc(var(--fs-grid--column-gap) / 2 + var(--fs-space--8));
 	}
 }

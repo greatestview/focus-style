@@ -6,9 +6,7 @@
 	/* Brand */
 	--fs-color--primary: oklch(59.51% 0.226 5.27);
 	--fs-color--secondary: oklch(67.5% 0.112 217.32);
-	--fs-color--secondary-dimmed: oklch(
-		from var(--fs-color--secondary) calc(l - 14.47%) calc(c - 0.019) h
-	);
+	--fs-color--secondary-dimmed: oklch(from var(--fs-color--secondary) calc(l - 14.47%) calc(c - 0.019) h);
 
 	/* Grayscale */
 	--fs-color--black: oklch(0% 0 0 / 87%);
