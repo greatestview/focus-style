@@ -1,15 +1,17 @@
-:root {
-  /*
-   * Please ALWAYS use both font-size--xy AND line-height--xy properties
-   * together as a pair with the same dimension for a persistent typographic
-   * system. Example:
-   *
-   * h1 {
-   *   font-size: var(--cmpr--font-size--xl);
-   *   line-height: var(--cmpr--line-height--xl);
-   * }
-   */
+/**
+ * Line heights
+ *
+ * Please ALWAYS use both font-size--xy AND line-height--xy properties
+ * together as a pair with the same dimension for a persistent typographic
+ * system. Correct example:
+ *
+ * h1 {
+ *   font-size: var(--cmpr--font-size--xl);
+ *   line-height: var(--cmpr--line-height--xl);
+ * }
+ */
 
+:root {
   /* Line height of root element */
   --fs-line-height-root  : 1.6;
 

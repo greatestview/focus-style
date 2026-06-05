@@ -1,6 +1,7 @@
 /**
  * Color: Palette
  */
+
 :root {
   /* Brand */
   --fs-color--primary           : oklch(59.51% 0.226 5.27);

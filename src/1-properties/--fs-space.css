@@ -1,10 +1,10 @@
+/**
+ * Spaces
+ *
+ * To be used for margin, padding, border-size, etc.
+ */
+
 :root {
-  /**
-   * Spaces for margin, padding, border-size, etc.
-   *
-   * Please use these properties as often as possible and prevent
-   * magic numbers in CSS code!
-   */
   --fs-space--0      : 0rem; /* `calc()` needs a unit */
   --fs-space--1      : 0.25rem;
   --fs-space--2      : calc(var(--fs-space--1) * 2);

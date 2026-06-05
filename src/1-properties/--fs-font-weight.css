@@ -1,6 +1,7 @@
 /**
  * Font weights
  */
+
 :root {
   --fs-font-weight--normal    : 400;
   --fs-font-weight--semibold  : 600;

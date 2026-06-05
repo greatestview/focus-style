@@ -1,3 +1,9 @@
+/**
+ * Opacity values
+ *
+ * To be used for opacity, background-color with alpha, etc.
+ */
+
 :root {
   --fs-opacity--0   : 0;
   --fs-opacity--25  : 0.25;

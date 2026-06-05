@@ -1,4 +1,7 @@
-/* Border width */
+/**
+ * Border widths
+ */
+
 :root {
   /* Ideally stick to just one! */
   --fs-border-width--none    : 0;

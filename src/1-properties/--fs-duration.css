@@ -1,6 +1,7 @@
 /**
  * Motion durations
  */
+
 :root {
   --fs-duration--fast    : 0.15s;
   --fs-duration--normal  : 0.3s;

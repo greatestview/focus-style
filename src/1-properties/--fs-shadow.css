@@ -1,3 +1,7 @@
+/**
+ * Shadows
+ */
+
 :root {
   --fs-shadow--default                 : var(--fs-space--0) var(--fs-space--0) var(--fs-space--2) var(--fs-space--0) var(--fs-color--shadow);
   --fs-shadow--interaction-transparent : var(--fs-space--0) var(--fs-space--0) var(--fs-space--2) var(--fs-space--0) transparent;

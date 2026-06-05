@@ -1,4 +1,7 @@
-/* Border radius */
+/**
+ * Border radii
+ */
+
 :root {
   --fs-border-radius--none    : 0;
   --fs-border-radius--full    : 9999px;

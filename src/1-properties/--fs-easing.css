@@ -1,6 +1,7 @@
 /**
  * Easing functions
  */
+
 :root {
   --fs-easing--ease-in           : ease-in;
   --fs-easing--ease-out          : ease-out;

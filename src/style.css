@@ -1,3 +1,7 @@
+/**
+ * Aggregate all CSS files.
+ */
+
 @import "./1-properties/**/*.css";
 @import "./2-base-elements/**/*.css";
 @import "./3-utility/**/*.css";

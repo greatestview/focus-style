@@ -1,4 +1,9 @@
-/* A list of the most important viewports. */
+/**
+ * Viewport media queries
+ *
+ * Custom media queries for different viewport sizes.
+ */
+
 @custom-media --fs-viewport--0-sm  (width < 640px);
 @custom-media --fs-viewport--0-md  (width < 768px);
 @custom-media --fs-viewport--0-xl  (width < 1200px);

@@ -1,20 +1,19 @@
 /**
  * Font sizes
+ *
+ * Please ALWAYS use both font-size--xy AND line-height--xy properties
+ * together as a pair with the same dimension for a persistent typographic
+ * system. Correct example:
+ *
+ * h1 {
+ *   font-size: var(--cmpr--font-size--xl);
+ *   line-height: var(--cmpr--line-height--xl);
+ * }
  */
+
 :root {
   /* Font size of root element */
-  --fs-font-size-root: calc(112.5% + .2vw);
-
-  /*
-   * Please ALWAYS use both font-size--xy AND line-height--xy properties
-   * together as a pair with the same dimension for a persistent typographic
-   * system. Example:
-   *
-   * h1 {
-   *   font-size: var(--cmpr--font-size--xl);
-   *   line-height: var(--cmpr--line-height--xl);
-   * }
-   */
+  --fs-font-size-root  : calc(112.5% + .2vw);
 
   /* Font sizes calculated via --fs-font-size-scale */
   --fs-font-size--sm   : calc(1rem * pow(var(--fs-font-size-scale), -1));
