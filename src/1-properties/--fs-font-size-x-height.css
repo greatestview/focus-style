@@ -15,9 +15,10 @@
  */
 :root {
   --fs-font-size-x-height-scale--mono     : 0.9;
+
   /*
   Uncomment the following section, if you want to use the x-height scales.
-  As you can see, things might become more complex.
+  As you can see, things might get complex fast.
   */
   /*
   --fs-font-size-x-height-scale--sans     : 1.0;
