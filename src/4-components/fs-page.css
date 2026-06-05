@@ -1,7 +1,7 @@
 .fs-page {
-  min-height: 100vh;
+	min-height: 100vh;
 }
 
 .fs-page__align-block-end {
-  margin-block-start: auto;
+	margin-block-start: auto;
 }

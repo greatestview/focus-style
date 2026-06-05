@@ -4,58 +4,58 @@
 
 img,
 svg {
-  display: block;
-  height: auto;
-  max-width: var(--fs-max-size--full);
+	display: block;
+	height: auto;
+	max-width: var(--fs-max-size--full);
 }
 
 svg {
-  /*
+	/*
   Prevents events to be fired unexpectedly on svg with holes
   @see https://www.smashingmagazine.com/2018/05/svg-interaction-pointer-events-property/
   */
-  pointer-events: none;
+	pointer-events: none;
 }
 
 img {
-  border-radius: var(--fs-border-radius--default);
-  box-shadow: var(--fs-shadow--default);
-  /* broken image styling */
-  color: var(--fs-color--text-2);
-  font-size: var(--fs-font-size--sm);
-  line-height: var(--fs-line-height--sm);
-  text-align: center;
+	border-radius: var(--fs-border-radius--default);
+	box-shadow: var(--fs-shadow--default);
+	/* broken image styling */
+	color: var(--fs-color--text-2);
+	font-size: var(--fs-font-size--sm);
+	line-height: var(--fs-line-height--sm);
+	text-align: center;
 }
 
 figure {
-  --fs-figure-space: var(--fs-space--6);
-  display: block;
-  margin: var(--fs-figure-space) 0;
-  max-width: var(--fs-max-size--full);
-  width: min-content;
+	--fs-figure-space: var(--fs-space--6);
+	display: block;
+	margin: var(--fs-figure-space) 0;
+	max-width: var(--fs-max-size--full);
+	width: min-content;
 
-  @media (--fs-viewport--lg) {
-    --fs-figure-space: var(--fs-space--8);
-  }
+	@media (--fs-viewport--lg) {
+		--fs-figure-space: var(--fs-space--8);
+	}
 }
 
 figcaption {
-  color: var(--fs-color--text-1);
-  display: block;
-  font-family: var(--fs-font-family--default);
-  font-size: var(--fs-font-size--sm);
-  line-height: var(--fs-line-height--sm);
-  /* We can’t use flexbox, because there might be <p>s inside figcaption or just
+	color: var(--fs-color--text-1);
+	display: block;
+	font-family: var(--fs-font-family--default);
+	font-size: var(--fs-font-size--sm);
+	line-height: var(--fs-line-height--sm);
+	/* We can’t use flexbox, because there might be <p>s inside figcaption or just
   pure text with inline links. */
-  margin-block: var(--fs-space--2);
-  text-align: start;
-  width: 100%;
+	margin-block: var(--fs-space--2);
+	text-align: start;
+	width: 100%;
 
-  & > :first-child {
-    margin-block-start: 0;
-  }
+	& > :first-child {
+		margin-block-start: 0;
+	}
 
-  & > :last-child {
-    margin-block-end: 0;
-  }
+	& > :last-child {
+		margin-block-end: 0;
+	}
 }

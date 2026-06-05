@@ -1,11 +1,11 @@
 .fs-margin-reset {
-  margin: 0;
+	margin: 0;
 }
 
 .fs-margin-reset--inline {
-  margin-inline: 0
+	margin-inline: 0;
 }
 
 .fs-margin-reset--block {
-  margin-block: 0;
+	margin-block: 0;
 }

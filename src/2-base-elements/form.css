@@ -3,13 +3,13 @@
  */
 
 :disabled {
-  cursor: not-allowed;
-  opacity: var(--fs-opacity--50);
+	cursor: not-allowed;
+	opacity: var(--fs-opacity--50);
 }
 
 ::placeholder {
-  color: var(--fs-color--text-2);
-  opacity: var(--fs-opacity--100);
+	color: var(--fs-color--text-2);
+	opacity: var(--fs-opacity--100);
 }
 
 /* @see http://adrianroselli.com/2019/09/under-engineered-text-boxen.html */
@@ -18,138 +18,124 @@ input,
 select,
 textarea,
 .fs-button {
-  color: inherit;
-  font: inherit;
-  letter-spacing: inherit;
-  word-spacing: inherit;
+	color: inherit;
+	font: inherit;
+	letter-spacing: inherit;
+	word-spacing: inherit;
 }
 
 button,
-button:where(
-  [type="submit"],
-  [type="button"],
-  [type="reset"]
-),
-input:where(
-  [type="submit"],
-  [type="button"],
-  [type="reset"]
-),
+button:where([type="submit"], [type="button"], [type="reset"]),
+input:where([type="submit"], [type="button"], [type="reset"]),
 .fs-button {
-  appearance: none;
-  background-color: transparent;
-  border-color: var(--fs-color--interaction);
-  border-radius: var(--fs-border-radius--default);
-  border-style: solid;
-  border-width: var(--fs-border-width--default);
-  box-shadow: var(--fs-shadow--interaction-transparent);
-  color: var(--fs-color--interaction);
-  cursor: pointer;
-  display: inline-block;
-  padding: var(--fs-space--2) var(--fs-space--6);
-  transition: box-shadow var(--fs-duration--default) var(--fs-easing--default);
-  word-break: normal;
+	appearance: none;
+	background-color: transparent;
+	border-color: var(--fs-color--interaction);
+	border-radius: var(--fs-border-radius--default);
+	border-style: solid;
+	border-width: var(--fs-border-width--default);
+	box-shadow: var(--fs-shadow--interaction-transparent);
+	color: var(--fs-color--interaction);
+	cursor: pointer;
+	display: inline-block;
+	padding: var(--fs-space--2) var(--fs-space--6);
+	transition: box-shadow var(--fs-duration--default) var(--fs-easing--default);
+	word-break: normal;
 
-  &:hover {
-    opacity: var(--fs-opacity--75);
-  }
+	&:hover {
+		opacity: var(--fs-opacity--75);
+	}
 
-  &:focus {
-    box-shadow: var(--fs-shadow--interaction);
-    outline: none;
-  }
+	&:focus {
+		box-shadow: var(--fs-shadow--interaction);
+		outline: none;
+	}
 
-  &::-moz-focus-inner {
-    border: 0;
-  }
+	&::-moz-focus-inner {
+		border: 0;
+	}
 }
 
 [type="submit"],
 .fs-button--submit {
-  background-color: var(--fs-color--interaction);
-  color: var(--fs-color--white);
+	background-color: var(--fs-color--interaction);
+	color: var(--fs-color--white);
 }
 
 input:where(
-  [type="text"],
-  [type="password"],
-  [type="url"],
-  [type="email"],
-  [type="tel"],
-  [type="search"],
-  [type="number"],
-  [type="date"],
-  [type="month"],
-  [type="week"],
-  [type="datetime"],
-  [type="datetime-local"],
-  [type="time"],
-  [type="file"]
+	[type="text"],
+	[type="password"],
+	[type="url"],
+	[type="email"],
+	[type="tel"],
+	[type="search"],
+	[type="number"],
+	[type="date"],
+	[type="month"],
+	[type="week"],
+	[type="datetime"],
+	[type="datetime-local"],
+	[type="time"],
+	[type="file"]
 ),
 textarea,
 select {
-  appearance: none;
-  background-color: transparent;
-  border-color: var(--fs-color--border);
-  border-radius: var(--fs-border-radius--default);
-  border-style: solid;
-  border-width: var(--fs-border-width--default);
-  box-shadow: var(--fs-shadow--interaction-transparent);
-  max-inline-size: var(--fs-max-size--xs);
-  padding: var(--fs-space--2) var(--fs-space--3);
-  transition: box-shadow var(--fs-duration--default) var(--fs-easing--default);
-  width: 100%;
+	appearance: none;
+	background-color: transparent;
+	border-color: var(--fs-color--border);
+	border-radius: var(--fs-border-radius--default);
+	border-style: solid;
+	border-width: var(--fs-border-width--default);
+	box-shadow: var(--fs-shadow--interaction-transparent);
+	max-inline-size: var(--fs-max-size--xs);
+	padding: var(--fs-space--2) var(--fs-space--3);
+	transition: box-shadow var(--fs-duration--default) var(--fs-easing--default);
+	width: 100%;
 
-  &:focus {
-    border-color: var(--fs-color--interaction);
-    box-shadow: var(--fs-shadow--interaction);
-    outline: none;
-  }
+	&:focus {
+		border-color: var(--fs-color--interaction);
+		box-shadow: var(--fs-shadow--interaction);
+		outline: none;
+	}
 }
 
 textarea {
-  field-sizing: content;
-  max-inline-size: var(--fs-max-size--sm);
+	field-sizing: content;
+	max-inline-size: var(--fs-max-size--sm);
 }
 
 label {
-  display: block;
-  margin-block: var(--fs-space--1);
+	display: block;
+	margin-block: var(--fs-space--1);
 
-  input:where(
-    [type="checkbox"],
-    [type="radio"]
-  ) + & {
-    display: inline;
-    margin-inline-start: var(--fs-space--2);
-  }
+	input:where([type="checkbox"], [type="radio"]) + & {
+		display: inline;
+		margin-inline-start: var(--fs-space--2);
+	}
 }
 
-input:where(
-  [type="checkbox"],
-  [type="radio"]
-) {
-  vertical-align: middle;
+input:where([type="checkbox"], [type="radio"]) {
+	vertical-align: middle;
 
-  label > & {
-    margin-inline-end: var(--fs-space--2);
-  }
+	label > & {
+		margin-inline-end: var(--fs-space--2);
+	}
 }
 
 fieldset {
-  border-color: var(--fs-color--border);
-  border-radius: var(--fs-border-radius--lg);
-  border-width: var(--fs-border-width--default);
-  border-style: solid;
-  padding: var(--fs-space--4);
+	border-color: var(--fs-color--border);
+	border-radius: var(--fs-border-radius--lg);
+	border-width: var(--fs-border-width--default);
+	border-style: solid;
+	padding: var(--fs-space--4);
 }
 
 legend {
-  color: var(--fs-color--text-1);
-  font-size: var(--fs-font-size--sm);
-  letter-spacing: var(--fs-letter-spacing--wide);
-  line-height: var(--fs-line-height--sm);
-  margin-inline: calc(-1 * var(--fs-space--2));
-  padding-inline: var(--fs-space--2);
-  text-transform: uppercase;
+	color: var(--fs-color--text-1);
+	font-size: var(--fs-font-size--sm);
+	letter-spacing: var(--fs-letter-spacing--wide);
+	line-height: var(--fs-line-height--sm);
+	margin-inline: calc(-1 * var(--fs-space--2));
+	padding-inline: var(--fs-space--2);
+	text-transform: uppercase;
 }

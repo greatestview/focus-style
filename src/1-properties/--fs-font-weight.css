@@ -3,8 +3,8 @@
  */
 
 :root {
-  --fs-font-weight--normal: 400;
-  --fs-font-weight--semibold: 600;
-  --fs-font-weight--bold: 700;
-  --fs-font-weight--extrabold: 800;
+	--fs-font-weight--normal: 400;
+	--fs-font-weight--semibold: 600;
+	--fs-font-weight--bold: 700;
+	--fs-font-weight--extrabold: 800;
 }

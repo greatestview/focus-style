@@ -3,20 +3,20 @@
  */
 
 html {
-  /* @see https://github.com/jensimmons/cssremedy/issues/70#issuecomment-751878564 */
-  height: 100%;
-  word-break: break-word;
+	/* @see https://github.com/jensimmons/cssremedy/issues/70#issuecomment-751878564 */
+	height: 100%;
+	word-break: break-word;
 }
 
 body {
-  min-height: 100vh;
-  margin: 0;
+	min-height: 100vh;
+	margin: 0;
 }
 
 *,
 *::after,
 *::before {
-  box-sizing: border-box;
-  background-repeat: no-repeat;
-  mask-repeat: no-repeat;
+	box-sizing: border-box;
+	background-repeat: no-repeat;
+	mask-repeat: no-repeat;
 }

@@ -3,17 +3,17 @@
  */
 
 :root {
-  --fs-color--vendor--facebook: #1877f2;
-  --fs-color--vendor--x: #000000;
-  --fs-color--vendor--whatsapp: #075e54;
-  --fs-color--vendor--pinterest: #e60023;
-  --fs-color--vendor--tumblr: #35465c;
-  --fs-color--vendor--youtube: #ff0000;
-  --fs-color--vendor--vimeo: #162221;
-  --fs-color--vendor--soundcloud: #ff8800;
-  --fs-color--vendor--linkedin: #0a66c2;
-  --fs-color--vendor--xing: #026466;
-  --fs-color--vendor--disqus: #2e9fff;
-  --fs-color--vendor--instagram: #405de6;
-  --fs-color--vendor--snapchat: #fffc00;
+	--fs-color--vendor--facebook: #1877f2;
+	--fs-color--vendor--x: #000000;
+	--fs-color--vendor--whatsapp: #075e54;
+	--fs-color--vendor--pinterest: #e60023;
+	--fs-color--vendor--tumblr: #35465c;
+	--fs-color--vendor--youtube: #ff0000;
+	--fs-color--vendor--vimeo: #162221;
+	--fs-color--vendor--soundcloud: #ff8800;
+	--fs-color--vendor--linkedin: #0a66c2;
+	--fs-color--vendor--xing: #026466;
+	--fs-color--vendor--disqus: #2e9fff;
+	--fs-color--vendor--instagram: #405de6;
+	--fs-color--vendor--snapchat: #fffc00;
 }

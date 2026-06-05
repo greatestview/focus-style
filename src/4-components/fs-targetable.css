@@ -1,26 +1,26 @@
 .fs-targetable {
-  position: relative;
+	position: relative;
 }
 
 /* @todo Write in modern CSS with logical properties */
 .fs-targetable__action {
-  color: var(--fs-color--interaction);
-  left: 0;
-  padding-right: var(--fs-space--1);
-  position: absolute;
-  text-decoration: none;
-  top: 0;
-  translate: -100%;
+	color: var(--fs-color--interaction);
+	left: 0;
+	padding-right: var(--fs-space--1);
+	position: absolute;
+	text-decoration: none;
+	top: 0;
+	translate: -100%;
 
-  &::before {
-    content: "#";
-  }
+	&::before {
+		content: "#";
+	}
 
-  .fs-targetable__action:not(:hover, :focus) {
-    opacity: var(--fs-opacity--0);
-  }
+	.fs-targetable__action:not(:hover, :focus) {
+		opacity: var(--fs-opacity--0);
+	}
 
-  .fs-targetable:is(:hover, :target) > &:not(:hover) {
-    opacity: var(--fs-opacity--100);
-  }
+	.fs-targetable:is(:hover, :target) > &:not(:hover) {
+		opacity: var(--fs-opacity--100);
+	}
 }

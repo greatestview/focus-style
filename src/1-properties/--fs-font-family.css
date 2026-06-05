@@ -3,9 +3,12 @@
  */
 
 :root {
-  --fs-font-family--sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif; /* Font stack from WordPress */
-  --fs-font-family--serif: 'Georgia', serif;
-  --fs-font-family--mono: 'SFMono-Regular', 'Menlo', 'Monaco', 'Consolas', 'Liberation Mono', 'Courier New', monospace; /* Font stack from Bootstrap */
-  --fs-font-family--default: var(--fs-font-family--sans);
+	--fs-font-family--sans:
+		-apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu",
+		"Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif; /* Font stack from WordPress */
+	--fs-font-family--serif: "Georgia", serif;
+	--fs-font-family--mono:
+		"SFMono-Regular", "Menlo", "Monaco", "Consolas", "Liberation Mono",
+		"Courier New", monospace; /* Font stack from Bootstrap */
+	--fs-font-family--default: var(--fs-font-family--sans);
 }
-

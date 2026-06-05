@@ -3,10 +3,10 @@
  */
 
 :root {
-  --fs-border-radius--none: 0;
-  --fs-border-radius--full: 9999px;
-  --fs-border-radius--sm: 3px;
-  --fs-border-radius--md: 6px;
-  --fs-border-radius--lg: 12px;
-  --fs-border-radius--default: var(--fs-border-radius--md);
+	--fs-border-radius--none: 0;
+	--fs-border-radius--full: 9999px;
+	--fs-border-radius--sm: 3px;
+	--fs-border-radius--md: 6px;
+	--fs-border-radius--lg: 12px;
+	--fs-border-radius--default: var(--fs-border-radius--md);
 }

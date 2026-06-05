@@ -1,20 +1,20 @@
 .fs-article__content :is(p, li) {
-  font-family: var(--fs-font-family--serif);
+	font-family: var(--fs-font-family--serif);
 }
 
 .fs-article__title {
-  color: var(--fs-color--secondary-dimmed);
-  margin-block: 0;
+	color: var(--fs-color--secondary-dimmed);
+	margin-block: 0;
 }
 
 .fs-article__meta-header {
-  --fs-color--interaction: var(--fs-color--text-2);
+	--fs-color--interaction: var(--fs-color--text-2);
 }
 
 .fs-article__meta-footer {
-  color: var(--fs-color--text-2);
+	color: var(--fs-color--text-2);
 }
 
 .fs-article__categories {
-  order: -1;
+	order: -1;
 }

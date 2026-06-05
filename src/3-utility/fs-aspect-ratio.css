@@ -3,15 +3,15 @@
  */
 
 .fs-aspect-ratio {
-  aspect-ratio: 16 / 9;
+	aspect-ratio: 16 / 9;
 }
 
 .fs-aspect-ratio--square {
-  aspect-ratio: 1 / 1;
+	aspect-ratio: 1 / 1;
 }
 
 .fs-aspect-ratio--square\@0-sm {
-  @media (--fs-viewport--0-sm) {
-    aspect-ratio: 1 / 1;
-  }
+	@media (--fs-viewport--0-sm) {
+		aspect-ratio: 1 / 1;
+	}
 }

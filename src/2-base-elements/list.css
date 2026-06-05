@@ -3,13 +3,13 @@
  */
 
 ::marker {
-  color: var(--fs-color--focus);
+	color: var(--fs-color--focus);
 
-  ol > & {
-    font-size: var(--fs-font-size--sm);
-    font-weight: var(--fs-font-weight--bold);
-    line-height: var(--fs-line-height--sm);
-  }
+	ol > & {
+		font-size: var(--fs-font-size--sm);
+		font-weight: var(--fs-font-weight--bold);
+		line-height: var(--fs-line-height--sm);
+	}
 }
 
 ol,
@@ -17,39 +17,33 @@ ul,
 menu,
 dir,
 dl {
-  --fs-list-space: var(--fs-space--3);
-  margin-block: var(--fs-list-space);
+	--fs-list-space: var(--fs-space--3);
+	margin-block: var(--fs-list-space);
 }
 
 ol,
 ul {
-  padding-inline-start: var(--fs-space--8);
+	padding-inline-start: var(--fs-space--8);
 }
 
 ol {
-  list-style-type: decimal-leading-zero;
+	list-style-type: decimal-leading-zero;
 }
 
 li {
-  padding-inline-start: var(--fs-space--1);
+	padding-inline-start: var(--fs-space--1);
 
-  :is(
-    ol,
-    ul,
-    menu,
-    dir,
-    dl
-  ) > & {
-    margin-block: var(--fs-space--1);
-  }
+	:is(ol, ul, menu, dir, dl) > & {
+		margin-block: var(--fs-space--1);
+	}
 }
 
 dt {
-  font-weight: var(--fs-font-weight--bold);
-  margin-block-start: var(--fs-space--2);
+	font-weight: var(--fs-font-weight--bold);
+	margin-block-start: var(--fs-space--2);
 }
 
 dd {
-  margin-block-end: var(--fs-space--2);
-  margin-inline-start: 0;
+	margin-block-end: var(--fs-space--2);
+	margin-inline-start: 0;
 }

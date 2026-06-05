@@ -4,11 +4,12 @@
 .comment-form-url,
 .logged-in-as,
 .comment-form-comment label {
-  overflow: hidden;
-  max-block-size: var(--fs-space--24);
-  opacity: var(--fs-opacity--100);
-  margin: 0;
-  transition: max-block-size var(--fs-duration--default) var(--fs-easing--default),
-    opacity var(--fs-duration--default) var(--fs-easing--default),
-    margin var(--fs-duration--default) var(--fs-easing--default);
+	overflow: hidden;
+	max-block-size: var(--fs-space--24);
+	opacity: var(--fs-opacity--100);
+	margin: 0;
+	transition:
+		max-block-size var(--fs-duration--default) var(--fs-easing--default),
+		opacity var(--fs-duration--default) var(--fs-easing--default),
+		margin var(--fs-duration--default) var(--fs-easing--default);
 }
