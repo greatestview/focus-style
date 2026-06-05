@@ -4,16 +4,16 @@
  * Custom media queries for different viewport sizes.
  */
 
-@custom-media --fs-viewport--0-sm  (width < 640px);
-@custom-media --fs-viewport--0-md  (width < 768px);
-@custom-media --fs-viewport--0-xl  (width < 1200px);
+@custom-media --fs-viewport--0-sm (width < 640px);
+@custom-media --fs-viewport--0-md (width < 768px);
+@custom-media --fs-viewport--0-xl (width < 1200px);
 @custom-media --fs-viewport--0-xxl (width < 1600px);
-@custom-media --fs-viewport--lg    (width >= 1024px);
-@custom-media --fs-viewport--sm    (width >= 640px);
-@custom-media --fs-viewport--md    (width >= 768px);
-@custom-media --fs-viewport--lg    (width >= 1024px);
-@custom-media --fs-viewport--xl    (width >= 1200px);
-@custom-media --fs-viewport--xxl   (width >= 1600px);
+@custom-media --fs-viewport--lg (width >= 1024px);
+@custom-media --fs-viewport--sm (width >= 640px);
+@custom-media --fs-viewport--md (width >= 768px);
+@custom-media --fs-viewport--lg (width >= 1024px);
+@custom-media --fs-viewport--xl (width >= 1200px);
+@custom-media --fs-viewport--xxl (width >= 1600px);
 
 /* WordPress admin menu breakpoint, sometimes useful to have this value. */
 @custom-media --fs-viewport--wordpress-tablet (width >= 783px);

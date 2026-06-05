@@ -4,9 +4,9 @@
 
 :root {
   /* Ideally stick to just one! */
-  --fs-border-width--none    : 0;
-  --fs-border-width--sm      : 1px;
-  --fs-border-width--md      : 2px;
-  --fs-border-width--lg      : 4px;
-  --fs-border-width--default : var(--fs-border-width--md);
+  --fs-border-width--none: 0;
+  --fs-border-width--sm: 1px;
+  --fs-border-width--md: 2px;
+  --fs-border-width--lg: 4px;
+  --fs-border-width--default: var(--fs-border-width--md);
 }

@@ -13,13 +13,13 @@
 
 :root {
   /* Font size of root element */
-  --fs-font-size-root  : calc(112.5% + .2vw);
+  --fs-font-size-root: calc(112.5% + .2vw);
 
   /* Font sizes calculated via --fs-font-size-scale */
-  --fs-font-size--sm   : calc(1rem * pow(var(--fs-font-size-scale), -1));
-  --fs-font-size--base : calc(1rem * pow(var(--fs-font-size-scale), 0));
-  --fs-font-size--md   : calc(1rem * pow(var(--fs-font-size-scale), 1));
-  --fs-font-size--lg   : calc(1rem * pow(var(--fs-font-size-scale), 2));
-  --fs-font-size--xl   : calc(1rem * pow(var(--fs-font-size-scale), 3));
-  --fs-font-size--xxl  : calc(1rem * pow(var(--fs-font-size-scale), 4));
+  --fs-font-size--sm: calc(1rem * pow(var(--fs-font-size-scale), -1));
+  --fs-font-size--base: calc(1rem * pow(var(--fs-font-size-scale), 0));
+  --fs-font-size--md: calc(1rem * pow(var(--fs-font-size-scale), 1));
+  --fs-font-size--lg: calc(1rem * pow(var(--fs-font-size-scale), 2));
+  --fs-font-size--xl: calc(1rem * pow(var(--fs-font-size-scale), 3));
+  --fs-font-size--xxl: calc(1rem * pow(var(--fs-font-size-scale), 4));
 }
