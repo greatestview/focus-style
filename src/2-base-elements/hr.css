@@ -9,7 +9,7 @@ hr {
 	margin-block: var(--fs-hr-space);
 	width: var(--fs-space--full);
 
-	@media (--fs-viewport--md) {
+	@media (--fs-viewport--min-md) {
 		--fs-hr-space: var(--fs-space--10);
 	}
 }

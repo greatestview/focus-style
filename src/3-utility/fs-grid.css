@@ -8,7 +8,7 @@
 	}
 
 	& > :not(.fs-grid__full) {
-		@media (--fs-viewport--md) {
+		@media (--fs-viewport--min-md) {
 			width: calc(10 * var(--fs-grid--column-width));
 			margin-inline-start: calc(1 * var(--fs-grid--column-width));
 		}

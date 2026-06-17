@@ -20,7 +20,7 @@ h1 {
 	margin-block-start: var(--fs-h1-space-block-start);
 	margin-block-end: var(--fs-h1-space-block-end);
 
-	@media (--fs-viewport--md) {
+	@media (--fs-viewport--min-md) {
 		font-size: var(--fs-font-size--xxl);
 		line-height: var(--fs-line-height--xxl);
 	}
@@ -34,7 +34,7 @@ h2 {
 	margin-block-start: var(--fs-h2-space-block-start);
 	margin-block-end: var(--fs-h2-space-block-end);
 
-	@media (--fs-viewport--md) {
+	@media (--fs-viewport--min-md) {
 		--fs-h2-space-block-start: var(--fs-space--14);
 		font-size: var(--fs-font-size--xl);
 		line-height: var(--fs-line-height--xl);
@@ -49,7 +49,7 @@ h3 {
 	margin-block-start: var(--fs-h3-space-block-start);
 	margin-block-end: var(--fs-h3-space-block-end);
 
-	@media (--fs-viewport--md) {
+	@media (--fs-viewport--min-md) {
 		--fs-h3-space-block-start: var(--fs-space--10);
 		font-size: var(--fs-font-size--lg);
 		line-height: var(--fs-line-height--lg);
@@ -108,7 +108,7 @@ blockquote {
 	padding-inline: var(--fs-blockquote-padding-inline);
 	position: relative;
 
-	@media (--fs-viewport--md) {
+	@media (--fs-viewport--min-md) {
 		--fs-blockquote-font-size: var(--fs-font-size--lg);
 		--fs-blockquote-line-height: var(--fs-line-height--lg);
 		--fs-blockquote-margin-block: var(--fs-space--10);

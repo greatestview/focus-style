@@ -12,16 +12,16 @@
 	--fs-grid--padding: calc((100vw - var(--fs-grid--width)) / 2);
 	--fs-grid--width: 90vw;
 
-	@media (--fs-viewport--sm) {
+	@media (--fs-viewport--min-sm) {
 		--fs-grid--column-gap: 3vw;
 	}
 
-	@media (--fs-viewport--md) {
+	@media (--fs-viewport--min-md) {
 		--fs-grid--column-gap: 2vw;
 		--fs-grid--width: 80vw;
 	}
 
-	@media (--fs-viewport--xxl) {
+	@media (--fs-viewport--min-xxl) {
 		--fs-grid--width: 60vw;
 	}
 }

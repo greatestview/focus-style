@@ -11,7 +11,7 @@
 }
 
 .fs-aspect-ratio--square\@0-sm {
-	@media (--fs-viewport--0-sm) {
+	@media (--fs-viewport--max-sm) {
 		aspect-ratio: 1 / 1;
 	}
 }

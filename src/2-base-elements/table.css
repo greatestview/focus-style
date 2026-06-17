@@ -11,7 +11,7 @@ table {
 	padding-inline: var(--fs-space--2);
 	margin-block: var(--fs-table-space);
 
-	@media (--fs-viewport--md) {
+	@media (--fs-viewport--min-md) {
 		--fs-table-space: var(--fs-space--10);
 	}
 }

@@ -34,7 +34,7 @@ figure {
 	max-width: var(--fs-max-size--full);
 	width: min-content;
 
-	@media (--fs-viewport--lg) {
+	@media (--fs-viewport--min-lg) {
 		--fs-figure-space: var(--fs-space--8);
 	}
 }
