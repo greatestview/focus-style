@@ -8,7 +8,6 @@
 @custom-media --fs-viewport--0-md (width < 768px);
 @custom-media --fs-viewport--0-xl (width < 1200px);
 @custom-media --fs-viewport--0-xxl (width < 1600px);
-@custom-media --fs-viewport--lg (width >= 1024px);
 @custom-media --fs-viewport--sm (width >= 640px);
 @custom-media --fs-viewport--md (width >= 768px);
 @custom-media --fs-viewport--lg (width >= 1024px);
