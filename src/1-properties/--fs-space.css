@@ -5,7 +5,7 @@
  */
 
 :root {
-	--fs-space--0: 0rem; /* `calc()` needs a unit */
+	--fs-space--none: 0rem; /* `calc()` needs a unit */
 	--fs-space--1: 0.25rem;
 	--fs-space--2: calc(var(--fs-space--1) * 2);
 	--fs-space--3: calc(var(--fs-space--1) * 3);

@@ -16,8 +16,8 @@
 	gap: var(--fs-gap--space) 0;
 }
 
-.fs-gap--0 {
-	--fs-gap--space: var(--fs-space--0);
+.fs-gap--none {
+	--fs-gap--space: var(--fs-space--none);
 }
 
 .fs-gap--sm {

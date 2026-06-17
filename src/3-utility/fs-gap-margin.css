@@ -16,8 +16,8 @@
 	margin-block-end: var(--fs-gap-margin--space);
 }
 
-.fs-gap-margin--0 > * {
-	--fs-gap-margin--space: var(--fs-space--0);
+.fs-gap-margin--none > * {
+	--fs-gap-margin--space: var(--fs-space--none);
 }
 
 .fs-gap-margin--sm > * {
