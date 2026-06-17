@@ -79,7 +79,7 @@ a {
 	}
 
 	&:hover {
-		opacity: var(--fs-opacity--75);
+		opacity: var(--fs-opacity--hi);
 	}
 
 	&:focus {

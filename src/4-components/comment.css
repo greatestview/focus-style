@@ -6,7 +6,7 @@
 .comment-form-comment label {
 	overflow: hidden;
 	max-block-size: var(--fs-space--24);
-	opacity: var(--fs-opacity--100);
+	opacity: var(--fs-opacity--full);
 	margin: 0;
 	transition:
 		max-block-size var(--fs-duration--default) var(--fs-easing--default),

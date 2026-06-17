@@ -4,12 +4,12 @@
 
 :disabled {
 	cursor: not-allowed;
-	opacity: var(--fs-opacity--50);
+	opacity: var(--fs-opacity--md);
 }
 
 ::placeholder {
 	color: var(--fs-color--text-2);
-	opacity: var(--fs-opacity--100);
+	opacity: var(--fs-opacity--full);
 }
 
 /* @see http://adrianroselli.com/2019/09/under-engineered-text-boxen.html */
@@ -43,7 +43,7 @@ input:where([type="submit"], [type="button"], [type="reset"]),
 	word-break: normal;
 
 	&:hover {
-		opacity: var(--fs-opacity--75);
+		opacity: var(--fs-opacity--hi);
 	}
 
 	&:focus {
