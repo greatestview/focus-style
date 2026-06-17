@@ -6,13 +6,13 @@
 	margin: 0 0 var(--fs-space--2) 0;
 
 	@media (--fs-viewport--0-md) {
-		font-size: var(--fs-font-size--lg);
-		line-height: var(--fs-line-height--lg);
+		font-size: var(--fs-font-size--xl);
+		line-height: var(--fs-line-height--xl);
 	}
 
 	@media (--fs-viewport--md) {
-		font-size: var(--fs-font-size--xl);
-		line-height: var(--fs-line-height--xl);
+		font-size: var(--fs-font-size--xxl);
+		line-height: var(--fs-line-height--xxl);
 	}
 }
 
