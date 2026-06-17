@@ -18,37 +18,44 @@
 	--fs-font-size-x-height-scale--mono: 0.9;
 
 	/*
-  Uncomment the following section, if you want to use the x-height scales.
-  As you can see, things might get complex fast.
-  */
+	Uncomment the following section, if you want to use the x-height scales.
+	As you can see, things might get complex fast.
+	*/
 	/*
-  --fs-font-size-x-height-scale--sans: 1.0;
-  --fs-font-size-x-height-scale--serif: 1.1;
-  --fs-font-size-x-height-scale--mono: 0.9;
-  --fs-font-size-x-height-scale--default: var(--fs-font-size-x-height-scale--sans);
+	--fs-font-size-x-height-scale--sans: 1.0;
+	--fs-font-size-x-height-scale--serif: 1.1;
+	--fs-font-size-x-height-scale--mono: 0.9;
+	--fs-font-size-x-height-scale--default: var(--fs-font-size-x-height-scale--sans);
 
-  --fs-font-size--sm--sans: calc(var(--fs-font-size--base--sans) / var(--fs-font-size-scale));
-  --fs-font-size--base--sans: calc(1rem * var(--fs-font-size-x-height-scale--sans));
-  --fs-font-size--md--sans: calc(var(--fs-font-size--base--sans) * var(--fs-font-size-scale));
-  --fs-font-size--lg--sans: calc(var(--fs-font-size--md--sans) * var(--fs-font-size-scale));
-  --fs-font-size--xl--sans: calc(var(--fs-font-size--lg--sans) * var(--fs-font-size-scale));
+	/* Calculated font sizes: sans * /
+	--fs-font-size--sm--sans: calc(1rem * var(--fs-font-size-x-height-scale--sans) * pow(var(--fs-font-size-scale), -1));
+	--fs-font-size--md--sans: calc(1rem * var(--fs-font-size-x-height-scale--sans) * pow(var(--fs-font-size-scale), 0));
+	--fs-font-size--lg--sans: calc(1rem * var(--fs-font-size-x-height-scale--sans) * pow(var(--fs-font-size-scale), 1));
+	--fs-font-size--xl--sans: calc(1rem * var(--fs-font-size-x-height-scale--sans) * pow(var(--fs-font-size-scale), 2));
+	--fs-font-size--xxl--sans: calc(1rem * var(--fs-font-size-x-height-scale--sans) * pow(var(--fs-font-size-scale), 3));
+	--fs-font-size--xxxl--sans: calc(1rem * var(--fs-font-size-x-height-scale--sans) * pow(var(--fs-font-size-scale), 4));
 
-  --fs-font-size--sm--serif: calc(var(--fs-font-size--base--serif) / var(--fs-font-size-scale));
-  --fs-font-size--base--serif: calc(1rem * var(--fs-font-size-x-height-scale--serif));
-  --fs-font-size--md--serif: calc(var(--fs-font-size--base--serif) * var(--fs-font-size-scale));
-  --fs-font-size--lg--serif: calc(var(--fs-font-size--md--serif) * var(--fs-font-size-scale));
-  --fs-font-size--xl--serif: calc(var(--fs-font-size--lg--serif) * var(--fs-font-size-scale));
+	/* Calculated font sizes: serif * /
+	--fs-font-size--sm--serif: calc(1rem * var(--fs-font-size-x-height-scale--serif) * pow(var(--fs-font-size-scale), -1));
+	--fs-font-size--md--serif: calc(1rem * var(--fs-font-size-x-height-scale--serif) * pow(var(--fs-font-size-scale), 0));
+	--fs-font-size--lg--serif: calc(1rem * var(--fs-font-size-x-height-scale--serif) * pow(var(--fs-font-size-scale), 1));
+	--fs-font-size--xl--serif: calc(1rem * var(--fs-font-size-x-height-scale--serif) * pow(var(--fs-font-size-scale), 2));
+	--fs-font-size--xxl--serif: calc(1rem * var(--fs-font-size-x-height-scale--serif) * pow(var(--fs-font-size-scale), 3));
+	--fs-font-size--xxxl--serif: calc(1rem * var(--fs-font-size-x-height-scale--serif) * pow(var(--fs-font-size-scale), 4));
 
-  --fs-font-size--sm--mono: calc(var(--fs-font-size--base--mono) / var(--fs-font-size-scale));
-  --fs-font-size--base--mono: calc(1rem * var(--fs-font-size-x-height-scale--mono));
-  --fs-font-size--md--mono: calc(var(--fs-font-size--base--mono) * var(--fs-font-size-scale));
-  --fs-font-size--lg--mono: calc(var(--fs-font-size--md--mono) * var(--fs-font-size-scale));
-  --fs-font-size--xl--mono: calc(var(--fs-font-size--lg--mono) * var(--fs-font-size-scale));
+	/* Calculated font sizes: mono * /
+	--fs-font-size--sm--mono: calc(1rem * var(--fs-font-size-x-height-scale--mono) * pow(var(--fs-font-size-scale), -1));
+	--fs-font-size--md--mono: calc(1rem * var(--fs-font-size-x-height-scale--mono) * pow(var(--fs-font-size-scale), 0));
+	--fs-font-size--lg--mono: calc(1rem * var(--fs-font-size-x-height-scale--mono) * pow(var(--fs-font-size-scale), 1));
+	--fs-font-size--xl--mono: calc(1rem * var(--fs-font-size-x-height-scale--mono) * pow(var(--fs-font-size-scale), 2));
+	--fs-font-size--xxl--mono: calc(1rem * var(--fs-font-size-x-height-scale--mono) * pow(var(--fs-font-size-scale), 3));
+	--fs-font-size--xxxl--mono: calc(1rem * var(--fs-font-size-x-height-scale--mono) * pow(var(--fs-font-size-scale), 4));
 
-  --fs-font-size--sm--default: var(--fs-font-size--sm--sans);
-  --fs-font-size--base--default: var(--fs-font-size--base--sans);
-  --fs-font-size--md--default: var(--fs-font-size--md--sans);
-  --fs-font-size--lg--default: var(--fs-font-size--lg--sans);
-  --fs-font-size--xl--default: var(--fs-font-size--xl--sans);
-  */
+	/* Calculated font sizes: default * /
+	--fs-font-size--sm--default: var(--fs-font-size--sm--sans);
+	--fs-font-size--md--default: var(--fs-font-size--md--sans);
+	--fs-font-size--lg--default: var(--fs-font-size--lg--sans);
+	--fs-font-size--xl--default: var(--fs-font-size--xl--sans);
+	--fs-font-size--xxl--default: var(--fs-font-size--xxl--sans);
+	/**/
 }
