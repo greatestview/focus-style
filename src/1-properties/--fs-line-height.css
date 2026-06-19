@@ -12,13 +12,6 @@
  */
 
 :root {
-	/* Line height of root element */
-	--fs-line-height-root: 1.6;
-
-	/* Line height variants are calculated via --fs-line-height-root and this factor */
-	--fs-line-height-scale: 0.9;
-
-	/* Line heights, calculated via --fs-line-height-scale */
 	--fs-line-height--sm: calc(var(--fs-line-height-root) * pow(var(--fs-line-height-scale), 0)); /* 0 on purpose, -1 is too big */
 	--fs-line-height--md: calc(var(--fs-line-height-root) * pow(var(--fs-line-height-scale), 0));
 	--fs-line-height--lg: calc(var(--fs-line-height-root) * pow(var(--fs-line-height-scale), 1));

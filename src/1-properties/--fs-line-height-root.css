@@ -1,0 +1,7 @@
+/**
+ * Line height root
+ */
+
+:root {
+	--fs-line-height-root: 1.6;
+}

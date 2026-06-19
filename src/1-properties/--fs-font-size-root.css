@@ -1,0 +1,7 @@
+/**
+ * Font size root
+ */
+
+:root {
+	--fs-font-size-root: calc(112.5% + 0.2vw);
+}

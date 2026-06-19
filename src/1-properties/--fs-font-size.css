@@ -12,9 +12,6 @@
  */
 
 :root {
-	/* Font size of root element */
-	--fs-font-size-root: calc(112.5% + 0.2vw);
-
 	/* Font sizes calculated via --fs-font-size-scale */
 	--fs-font-size--sm: calc(1rem * pow(var(--fs-font-size-scale), -1));
 	--fs-font-size--md: calc(1rem * pow(var(--fs-font-size-scale), 0));
