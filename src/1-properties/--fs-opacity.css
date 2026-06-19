@@ -6,8 +6,8 @@
 
 :root {
 	--fs-opacity--none: 0;
-	--fs-opacity--lo: 0.25;
-	--fs-opacity--md: 0.5;
-	--fs-opacity--hi: 0.75;
+	--fs-opacity--low: 0.25;
+	--fs-opacity--medium: 0.5;
+	--fs-opacity--high: 0.75;
 	--fs-opacity--full: 1;
 }
