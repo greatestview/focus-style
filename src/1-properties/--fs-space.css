@@ -15,6 +15,7 @@
 	--fs-space--8: calc(var(--fs-space--1) * 8);
 	--fs-space--10: calc(var(--fs-space--1) * 10);
 	--fs-space--12: calc(var(--fs-space--1) * 12);
+	--fs-space--14: calc(var(--fs-space--1) * 14);
 	--fs-space--16: calc(var(--fs-space--1) * 16);
 	--fs-space--24: calc(var(--fs-space--1) * 24);
 	--fs-space--32: calc(var(--fs-space--1) * 32);
