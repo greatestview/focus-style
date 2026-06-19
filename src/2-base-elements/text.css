@@ -125,7 +125,7 @@ blockquote > :not(cite) {
 
 cite {
 	blockquote > & {
-		color: var(--fs-color--text-1);
+		color: var(--fs-color--text--1);
 		display: block;
 		font-family: var(--fs-font-family--sans);
 		font-size: var(--fs-font-size--sm);

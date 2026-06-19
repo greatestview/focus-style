@@ -3,8 +3,8 @@
 }
 
 .fs-comment__metadata {
-	--fs-color--interaction: var(--fs-color--text-2);
-	--fs-color--text: var(--fs-color--text-2);
+	--fs-color--interaction: var(--fs-color--text--2);
+	--fs-color--text: var(--fs-color--text--2);
 	color: var(--fs-color--text);
 }
 

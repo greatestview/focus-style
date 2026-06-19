@@ -3,16 +3,16 @@
 }
 
 .fs-article__title {
-	color: var(--fs-color--secondary-dimmed);
+	color: var(--fs-color--secondary--dimmed);
 	margin-block: 0;
 }
 
 .fs-article__meta-header {
-	--fs-color--interaction: var(--fs-color--text-2);
+	--fs-color--interaction: var(--fs-color--text--2);
 }
 
 .fs-article__meta-footer {
-	color: var(--fs-color--text-2);
+	color: var(--fs-color--text--2);
 }
 
 .fs-article__categories {

@@ -8,7 +8,7 @@
 }
 
 ::placeholder {
-	color: var(--fs-color--text-2);
+	color: var(--fs-color--text--2);
 	opacity: var(--fs-opacity--full);
 }
 
@@ -34,7 +34,7 @@ input:where([type="submit"], [type="button"], [type="reset"]),
 	border-radius: var(--fs-border-radius--default);
 	border-style: solid;
 	border-width: var(--fs-border-width--default);
-	box-shadow: var(--fs-shadow--interaction-transparent);
+	box-shadow: var(--fs-shadow--interaction--transparent);
 	color: var(--fs-color--interaction);
 	cursor: pointer;
 	display: inline-block;
@@ -71,7 +71,7 @@ select {
 	border-radius: var(--fs-border-radius--default);
 	border-style: solid;
 	border-width: var(--fs-border-width--default);
-	box-shadow: var(--fs-shadow--interaction-transparent);
+	box-shadow: var(--fs-shadow--interaction--transparent);
 	max-inline-size: var(--fs-max-size--xs);
 	padding: var(--fs-space--2) var(--fs-space--3);
 	transition: box-shadow var(--fs-duration--default) var(--fs-easing--default);
@@ -116,7 +116,7 @@ fieldset {
 }
 
 legend {
-	color: var(--fs-color--text-1);
+	color: var(--fs-color--text--1);
 	font-size: var(--fs-font-size--sm);
 	letter-spacing: var(--fs-letter-spacing--wide);
 	line-height: var(--fs-line-height--sm);

@@ -27,11 +27,11 @@
 }
 
 .fs-teaser-pure__text {
-	color: var(--fs-color--text-1);
+	color: var(--fs-color--text--1);
 }
 
 .fs-teaser-pure__text p {
-	/* --fs-color--interaction: var(--fs-color--text-1); */
+	/* --fs-color--interaction: var(--fs-color--text--1); */
 	display: inline;
 	margin: 0 var(--fs-space--1) 0 0;
 }
@@ -41,7 +41,7 @@
 }
 
 .fs-teaser-pure__read-more-link {
-	color: var(--fs-color--interaction-cta);
+	color: var(--fs-color--interaction--cta);
 
 	&::before {
 		content: "";

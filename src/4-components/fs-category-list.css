@@ -4,6 +4,6 @@
 }
 
 .fs-category-list > *:not(:last-child)::after {
-	color: var(--fs-color--text-2);
+	color: var(--fs-color--text--2);
 	content: " / ";
 }

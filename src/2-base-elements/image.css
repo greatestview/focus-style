@@ -21,7 +21,7 @@ img {
 	border-radius: var(--fs-border-radius--default);
 	box-shadow: var(--fs-shadow--default);
 	/* broken image styling */
-	color: var(--fs-color--text-2);
+	color: var(--fs-color--text--2);
 	font-size: var(--fs-font-size--sm);
 	line-height: var(--fs-line-height--sm);
 	text-align: center;
@@ -40,7 +40,7 @@ figure {
 }
 
 figcaption {
-	color: var(--fs-color--text-1);
+	color: var(--fs-color--text--1);
 	display: block;
 	font-family: var(--fs-font-family--default);
 	font-size: var(--fs-font-size--sm);
