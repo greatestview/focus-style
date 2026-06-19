@@ -12,7 +12,7 @@ table {
 	margin-block: var(--fs-table-space);
 
 	@media (--fs-viewport--min-md) {
-		--fs-table-space: var(--fs-space--10);
+		--fs-table-space: var(--fs-space--8);
 	}
 }
 

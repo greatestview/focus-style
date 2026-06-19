@@ -10,6 +10,6 @@ hr {
 	width: var(--fs-space--full);
 
 	@media (--fs-viewport--min-md) {
-		--fs-hr-space: var(--fs-space--10);
+		--fs-hr-space: var(--fs-space--12);
 	}
 }
