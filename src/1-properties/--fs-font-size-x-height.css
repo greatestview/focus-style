@@ -32,8 +32,8 @@
 	--fs-font-size--md--sans: calc(1rem * var(--fs-font-size-x-height-scale--sans) * pow(var(--fs-font-size-scale), 0));
 	--fs-font-size--lg--sans: calc(1rem * var(--fs-font-size-x-height-scale--sans) * pow(var(--fs-font-size-scale), 1));
 	--fs-font-size--xl--sans: calc(1rem * var(--fs-font-size-x-height-scale--sans) * pow(var(--fs-font-size-scale), 2));
-	--fs-font-size--xxl--sans: calc(1rem * var(--fs-font-size-x-height-scale--sans) * pow(var(--fs-font-size-scale), 3));
-	--fs-font-size--xxxl--sans: calc(1rem * var(--fs-font-size-x-height-scale--sans) * pow(var(--fs-font-size-scale), 4));
+	--fs-font-size--2xl--sans: calc(1rem * var(--fs-font-size-x-height-scale--sans) * pow(var(--fs-font-size-scale), 3));
+	--fs-font-size--3xl--sans: calc(1rem * var(--fs-font-size-x-height-scale--sans) * pow(var(--fs-font-size-scale), 4));
 
 	/* Calculated font sizes: serif * /
 	--fs-font-size--sm--serif: calc(1rem * var(--fs-font-size-x-height-scale--serif) * pow(var(--fs-font-size-scale), -1));
@@ -48,14 +48,15 @@
 	--fs-font-size--md--mono: calc(1rem * var(--fs-font-size-x-height-scale--mono) * pow(var(--fs-font-size-scale), 0));
 	--fs-font-size--lg--mono: calc(1rem * var(--fs-font-size-x-height-scale--mono) * pow(var(--fs-font-size-scale), 1));
 	--fs-font-size--xl--mono: calc(1rem * var(--fs-font-size-x-height-scale--mono) * pow(var(--fs-font-size-scale), 2));
-	--fs-font-size--xxl--mono: calc(1rem * var(--fs-font-size-x-height-scale--mono) * pow(var(--fs-font-size-scale), 3));
-	--fs-font-size--xxxl--mono: calc(1rem * var(--fs-font-size-x-height-scale--mono) * pow(var(--fs-font-size-scale), 4));
+	--fs-font-size--2xl--mono: calc(1rem * var(--fs-font-size-x-height-scale--mono) * pow(var(--fs-font-size-scale), 3));
+	--fs-font-size--3xl--mono: calc(1rem * var(--fs-font-size-x-height-scale--mono) * pow(var(--fs-font-size-scale), 4));
 
 	/* Calculated font sizes: default * /
 	--fs-font-size--sm--default: var(--fs-font-size--sm--sans);
 	--fs-font-size--md--default: var(--fs-font-size--md--sans);
 	--fs-font-size--lg--default: var(--fs-font-size--lg--sans);
 	--fs-font-size--xl--default: var(--fs-font-size--xl--sans);
-	--fs-font-size--xxl--default: var(--fs-font-size--xxl--sans);
+	--fs-font-size--2xl--default: var(--fs-font-size--2xl--sans);
+	--fs-font-size--3xl--default: var(--fs-font-size--3xl--sans);
 	/**/
 }
