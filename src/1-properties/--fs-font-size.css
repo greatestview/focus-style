@@ -3,11 +3,11 @@
  *
  * Please ALWAYS use both font-size--xy AND line-height--xy properties
  * together as a pair with the same dimension for a persistent typographic
- * system. Correct example:
+ * system. Example:
  *
  * h1 {
- *   font-size: var(--cmpr--font-size--xl);
- *   line-height: var(--cmpr--line-height--xl);
+ * 	font-size: var(--cmpr--font-size--xl);
+ * 	line-height: var(--cmpr--line-height--xl);
  * }
  */
 

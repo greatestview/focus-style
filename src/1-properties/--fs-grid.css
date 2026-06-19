@@ -5,7 +5,7 @@
  */
 
 :root {
-	/* Make some constants and calculate the others from them. */
+	/* Make some constants and calculate the others from them */
 	--fs-grid--column-gap: 4vw;
 	--fs-grid--column-quantity: 12;
 	--fs-grid--column-width: calc(var(--fs-grid--width) / var(--fs-grid--column-quantity));

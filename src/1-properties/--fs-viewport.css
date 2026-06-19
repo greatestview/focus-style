@@ -1,5 +1,5 @@
 /**
- * Viewport media queries
+ * Viewport: media queries
  *
  * Custom media queries for different viewport sizes.
  */
@@ -15,5 +15,5 @@
 @custom-media --fs-viewport--min-xl (width >= 1200px);
 @custom-media --fs-viewport--min-xxl (width >= 1600px);
 
-/* WordPress admin menu breakpoint, sometimes useful to have this value. */
+/* WordPress admin menu breakpoint, sometimes useful to have this value */
 @custom-media --fs-viewport--wordpress-tablet (width >= 783px);

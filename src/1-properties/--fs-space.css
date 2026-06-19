@@ -1,7 +1,8 @@
 /**
- * Spaces
+ * Space
  *
- * To be used for margin, padding, border-size, offset, etc.
+ * _One_ space system to be used for all metrics like margin, padding,
+ * border-size, offset, etc. Please avoid magic numbers in your code.
  * This is a fixed scale, following harmonic intervals to keep the design system
  * consistent. Therefore it is not recommended to be modified. If you’re looking
  * for a value that’s not on the scale, try to use the next closest value

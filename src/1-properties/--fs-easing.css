@@ -1,5 +1,7 @@
 /**
- * Easing functions
+ * Easing: transition and animation
+ *
+ * Common transition functions. Choose *one* for your `--fs-easing--default`.
  */
 
 :root {
