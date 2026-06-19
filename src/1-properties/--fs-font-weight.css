@@ -3,7 +3,9 @@
  */
 
 :root {
+	--fs-font-weight--light: 300;
 	--fs-font-weight--normal: 400;
+	--fs-font-weight--medium: 500;
 	--fs-font-weight--semibold: 600;
 	--fs-font-weight--bold: 700;
 	--fs-font-weight--extrabold: 800;
