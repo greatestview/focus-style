@@ -40,8 +40,8 @@
 	--fs-font-size--md--serif: calc(1rem * var(--fs-font-size-x-height-scale--serif) * pow(var(--fs-font-size-scale), 0));
 	--fs-font-size--lg--serif: calc(1rem * var(--fs-font-size-x-height-scale--serif) * pow(var(--fs-font-size-scale), 1));
 	--fs-font-size--xl--serif: calc(1rem * var(--fs-font-size-x-height-scale--serif) * pow(var(--fs-font-size-scale), 2));
-	--fs-font-size--xxl--serif: calc(1rem * var(--fs-font-size-x-height-scale--serif) * pow(var(--fs-font-size-scale), 3));
-	--fs-font-size--xxxl--serif: calc(1rem * var(--fs-font-size-x-height-scale--serif) * pow(var(--fs-font-size-scale), 4));
+	--fs-font-size--2xl--serif: calc(1rem * var(--fs-font-size-x-height-scale--serif) * pow(var(--fs-font-size-scale), 3));
+	--fs-font-size--3xl--serif: calc(1rem * var(--fs-font-size-x-height-scale--serif) * pow(var(--fs-font-size-scale), 4));
 
 	/* Calculated font sizes: mono * /
 	--fs-font-size--sm--mono: calc(1rem * var(--fs-font-size-x-height-scale--mono) * pow(var(--fs-font-size-scale), -1));
