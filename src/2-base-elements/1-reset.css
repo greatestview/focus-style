@@ -3,7 +3,8 @@
  */
 
 html {
-	/* @see https://github.com/jensimmons/cssremedy/issues/70#issuecomment-751878564 */
+	/* @see https://github.com/jensimmons/cssremedy/issues/70#issuecomment-751878564
+	   */
 	height: 100%;
 	word-break: break-word;
 }

@@ -10,17 +10,16 @@ svg {
 }
 
 svg {
-	/*
-  Prevents events to be fired unexpectedly on svg with holes
-  @see https://www.smashingmagazine.com/2018/05/svg-interaction-pointer-events-property/
-  */
+	/* Prevents events to be fired unexpectedly on svg with holes
+	   @see https://www.smashingmagazine.com/2018/05/svg-interaction-pointer-events-property/
+	   */
 	pointer-events: none;
 }
 
 img {
 	border-radius: var(--fs-border-radius--default);
 	box-shadow: var(--fs-shadow--default);
-	/* broken image styling */
+	/* Broken image styling */
 	color: var(--fs-color--text--2);
 	font-size: var(--fs-font-size--sm);
 	line-height: var(--fs-line-height--sm);
@@ -46,7 +45,7 @@ figcaption {
 	font-size: var(--fs-font-size--sm);
 	line-height: var(--fs-line-height--sm);
 	/* We can’t use flexbox, because there might be <p>s inside figcaption or just
-  pure text with inline links. */
+	   pure text with inline links */
 	margin-block: var(--fs-space--2);
 	text-align: start;
 	width: 100%;

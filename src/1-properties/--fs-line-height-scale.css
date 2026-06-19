@@ -5,6 +5,7 @@
  */
 
 :root {
-	/* Line height variants are calculated via --fs-line-height-root and this factor */
+	/* Line height variants are calculated via --fs-line-height-root and this
+	   factor */
 	--fs-line-height-scale: 0.9;
 }

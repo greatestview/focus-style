@@ -14,6 +14,7 @@
 	--fs-font-size-scale--perfect-fifth: 1.5;
 	--fs-font-size-scale--golden-ratio: 1.618;
 
-	/* Font size variants are calculated via --fs-font-size-root and this factor */
+	/* Font size variants are calculated via --fs-font-size-root and this factor
+	   */
 	--fs-font-size-scale: var(--fs-font-size-scale--augmented-fourth);
 }
