@@ -1,0 +1,29 @@
+/**
+ * Font size x-height scale: advanced typography
+ *
+ * Different fonts with the same x-height look more homogenious, but in most
+ * cases different fonts come with different x-heights on the same font-size.
+ * `--fs-font-size-x-height-scale` allows to align the x-height among different
+ * font families. If you decide to use x-height alignment, you have to set
+ * `--fs-font-size-x-height-scale` in each font family definition. Example:
+ *
+ * .blockquote {
+ * 	--fs-font-size-x-height-scale: var(--fs-font-size-x-height-scale--serif);
+ * 	font-family: var(--fs-font-family--serif);
+ * 	font-size: var(--fs-font-size--md);
+ * 	line-height: var(--fs-line-height--md);
+ * }
+ */
+
+:root {
+	/* Adjust x-height-scale visually: overlap the same letter in different font
+	   families and adjust the scale values until the top and bottom of the small
+	   letter `x` align. Your main font x-height scale should be set to 1.0. */
+	--fs-font-size-x-height-scale--sans: 1.0;
+	--fs-font-size-x-height-scale--serif: 1.1;
+	--fs-font-size-x-height-scale--mono: 0.9;
+	--fs-font-size-x-height-scale--default: var(--fs-font-size-x-height-scale--sans);
+
+	/* Active scope property, should be set for each font family definition */
+	--fs-font-size-x-height-scale: var(--fs-font-size-x-height-scale--default, 1);
+}
