@@ -3,16 +3,23 @@
  *
  * Different fonts with the same x-height look more homogenious, but in most
  * cases different fonts come with different x-heights on the same font-size.
- * `--fs-font-size-x-height-scale` allows to align the x-height among different
- * font families. If you decide to use x-height alignment, you have to set
- * `--fs-font-size-x-height-scale` in each font family definition. Example:
  *
- * .blockquote {
+ * `--fs-font-size-x-height-scale` allows to align the x-height among different
+ * font families. If you decide to use x-height alignment, you have to set this
+ * property in each font family definition. Alternatively, you can also use the
+ * .fs-font--[font family] utility class which does that for you.
+ *
+ * Example (manual):
+ *
+ * .my-component {
  * 	--fs-font-size-x-height-scale: var(--fs-font-size-x-height-scale--serif);
  * 	font-family: var(--fs-font-family--serif);
  * 	font-size: var(--fs-font-size--md);
  * 	line-height: var(--fs-line-height--md);
  * }
+ *
+ * Example (utility class):
+ * <div class="fs-font--serif fs-font--md">…</div>
  */
 
 :root {
