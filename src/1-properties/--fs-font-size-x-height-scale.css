@@ -25,5 +25,5 @@
 	--fs-font-size-x-height-scale--default: var(--fs-font-size-x-height-scale--sans);
 
 	/* Active scope property, should be set for each font family definition */
-	--fs-font-size-x-height-scale: var(--fs-font-size-x-height-scale--default, 1);
+	--fs-font-size-x-height-scale: var(--fs-font-size-x-height-scale--default);
 }
