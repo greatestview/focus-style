@@ -3,17 +3,28 @@
  */
 
 :root {
+	--fs-color--vendor--bluesky: #1185fe;
 	--fs-color--vendor--disqus: #2e9fff;
 	--fs-color--vendor--facebook: #1877f2;
-	--fs-color--vendor--instagram: #405de6;
-	--fs-color--vendor--linkedin: #0a66c2;
+	--fs-color--vendor--flickr: #ff0084;
+	--fs-color--vendor--google: #4285f4;
+	--fs-color--vendor--instagram: #c13584;
+	--fs-color--vendor--linkedin: #0b66c2;
+	--fs-color--vendor--mastodon: #6364ff;
+	--fs-color--vendor--messenger: #0084ff;
 	--fs-color--vendor--pinterest: #e60023;
+	--fs-color--vendor--podcast: #8931c4;
+	--fs-color--vendor--signal: #3273dc;
 	--fs-color--vendor--snapchat: #fffc00;
 	--fs-color--vendor--soundcloud: #ff8800;
+	--fs-color--vendor--telegram: #0088cc;
+	--fs-color--vendor--threads: #000000;
+	--fs-color--vendor--threema: #1d1d1b;
+	--fs-color--vendor--tiktok: #fe2c55;
 	--fs-color--vendor--tumblr: #35465c;
 	--fs-color--vendor--vimeo: #162221;
-	--fs-color--vendor--whatsapp: #075e54;
+	--fs-color--vendor--whatsapp: #24d366;
 	--fs-color--vendor--x: #000000;
 	--fs-color--vendor--xing: #026466;
-	--fs-color--vendor--youtube: #ff0000;
+	--fs-color--vendor--youtube: #ff0032;
 }
