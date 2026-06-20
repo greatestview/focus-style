@@ -28,12 +28,12 @@
 }
 
 .fs-font--sans {
-  --fs-font-size-x-height-scale: var(--fs-font-size-x-height-scale--sans);
+	--fs-font-size-x-height-scale: var(--fs-font-size-x-height-scale--sans);
 	font-family: var(--fs-font-family--sans);
 }
 
 .fs-font--serif {
-  --fs-font-size-x-height-scale: var(--fs-font-size-x-height-scale--serif);
+	--fs-font-size-x-height-scale: var(--fs-font-size-x-height-scale--serif);
 	font-family: var(--fs-font-family--serif);
 }
 
