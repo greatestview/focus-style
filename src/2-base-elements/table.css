@@ -6,10 +6,9 @@ table {
 	--fs-table-space: var(--fs-space--6);
 	border-collapse: collapse;
 	border-spacing: 0;
-
 	font-family: var(--fs-font-family--default);
-	padding-inline: var(--fs-space--2);
 	margin-block: var(--fs-table-space);
+	padding-inline: var(--fs-space--2);
 
 	@media (--fs-viewport--min-md) {
 		--fs-table-space: var(--fs-space--8);
