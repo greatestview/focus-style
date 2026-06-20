@@ -39,6 +39,7 @@ figure {
 }
 
 figcaption {
+	--fs-font-size-x-height-scale: var(--fs-font-size-x-height-scale--default);
 	color: var(--fs-color--text--1);
 	display: block;
 	font-family: var(--fs-font-family--default);

@@ -93,6 +93,7 @@ a {
 
 strong,
 b {
+	--fs-font-size-x-height-scale: var(--fs-font-size-x-height-scale--sans);
 	color: var(--fs-color--strong);
 	font-family: var(--fs-font-family--sans);
 	font-weight: var(--fs-font-weight--bold);
@@ -125,6 +126,7 @@ blockquote > :not(cite) {
 
 cite {
 	blockquote > & {
+		--fs-font-size-x-height-scale: var(--fs-font-size-x-height-scale--sans);
 		color: var(--fs-color--text--1);
 		display: block;
 		font-family: var(--fs-font-family--sans);
@@ -152,6 +154,7 @@ small {
 
 :not(pre) > :is(code, kbd, samp),
 pre {
+	--fs-font-size-x-height-scale: var(--fs-font-size-x-height-scale--mono);
 	font-family: var(--fs-font-family--mono);
 	font-size: calc(1em * var(--fs-font-size-x-height-scale--mono));
 }

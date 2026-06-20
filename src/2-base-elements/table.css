@@ -3,6 +3,7 @@
  */
 
 table {
+	--fs-font-size-x-height-scale: var(--fs-font-size-x-height-scale--default);
 	--fs-table-space: var(--fs-space--6);
 	border-collapse: collapse;
 	border-spacing: 0;
