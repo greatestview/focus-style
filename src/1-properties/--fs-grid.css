@@ -21,7 +21,7 @@
 		--fs-grid--width: 80vw;
 	}
 
-	@media (--fs-viewport--min-xxl) {
+	@media (--fs-viewport--min-2xl) {
 		--fs-grid--width: 60vw;
 	}
 }
