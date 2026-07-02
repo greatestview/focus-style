@@ -16,6 +16,6 @@
 	--fs-font-size--md: calc(1rem * var(--fs-font-size-x-height-scale) * pow(var(--fs-font-size-scale), 0));
 	--fs-font-size--lg: calc(1rem * var(--fs-font-size-x-height-scale) * pow(var(--fs-font-size-scale), 1));
 	--fs-font-size--xl: calc(1rem * var(--fs-font-size-x-height-scale) * pow(var(--fs-font-size-scale), 2));
-	--fs-font-size--xxl: calc(1rem * var(--fs-font-size-x-height-scale) * pow(var(--fs-font-size-scale), 3));
-	--fs-font-size--xxxl: calc(1rem * var(--fs-font-size-x-height-scale) * pow(var(--fs-font-size-scale), 4));
+	--fs-font-size--2xl: calc(1rem * var(--fs-font-size-x-height-scale) * pow(var(--fs-font-size-scale), 3));
+	--fs-font-size--3xl: calc(1rem * var(--fs-font-size-x-height-scale) * pow(var(--fs-font-size-scale), 4));
 }

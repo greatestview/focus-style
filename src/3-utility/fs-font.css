@@ -18,9 +18,9 @@
 	line-height: var(--fs-line-height--xl);
 }
 
-.fs-font--xxl {
-	font-size: var(--fs-font-size--xxl);
-	line-height: var(--fs-line-height--xxl);
+.fs-font--2xl {
+	font-size: var(--fs-font-size--2xl);
+	line-height: var(--fs-line-height--2xl);
 }
 
 .fs-font--bold {
