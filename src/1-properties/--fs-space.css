@@ -11,6 +11,8 @@
 
 :root {
 	--fs-space--none: 0rem; /* `calc()` needs a unit */
+	--fs-space--0\.25: calc(var(--fs-space--1) * 1/4);
+	--fs-space--0\.5: calc(var(--fs-space--1) * 1/2);
 	--fs-space--1: 0.25rem;
 	--fs-space--2: calc(var(--fs-space--1) * 2);
 	--fs-space--3: calc(var(--fs-space--1) * 3);
