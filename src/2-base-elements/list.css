@@ -17,8 +17,8 @@ ul,
 menu,
 dir,
 dl {
-	--fs-list-space: var(--fs-space--3);
-	margin-block: var(--fs-list-space);
+	--_fs-list-space: var(--fs-space--3);
+	margin-block: var(--_fs-list-space);
 }
 
 ol,

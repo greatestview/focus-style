@@ -3,13 +3,13 @@
  */
 
 hr {
-	--fs-hr-space: var(--fs-space--8);
+	--_fs-hr-space: var(--fs-space--8);
 	border-color: var(--fs-color--border);
 	border-width: var(--fs-border-width--default) 0 0 0;
-	margin-block: var(--fs-hr-space);
+	margin-block: var(--_fs-hr-space);
 	width: var(--fs-space--full);
 
 	@media (--fs-viewport--min-md) {
-		--fs-hr-space: var(--fs-space--12);
+		--_fs-hr-space: var(--fs-space--12);
 	}
 }

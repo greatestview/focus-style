@@ -4,15 +4,15 @@
 
 table {
 	--fs-font-size-x-height-scale: var(--fs-font-size-x-height-scale--default);
-	--fs-table-space: var(--fs-space--6);
+	--_fs-table-space: var(--fs-space--6);
 	border-collapse: collapse;
 	border-spacing: 0;
 	font-family: var(--fs-font-family--default);
-	margin-block: var(--fs-table-space);
+	margin-block: var(--_fs-table-space);
 	padding-inline: var(--fs-space--2);
 
 	@media (--fs-viewport--min-md) {
-		--fs-table-space: var(--fs-space--8);
+		--_fs-table-space: var(--fs-space--8);
 	}
 }
 

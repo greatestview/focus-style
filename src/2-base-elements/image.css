@@ -27,14 +27,14 @@ img {
 }
 
 figure {
-	--fs-figure-space: var(--fs-space--6);
+	--_fs-figure-space: var(--fs-space--6);
 	display: block;
-	margin: var(--fs-figure-space) 0;
+	margin: var(--_fs-figure-space) 0;
 	max-width: var(--fs-max-size--full);
 	width: min-content;
 
 	@media (--fs-viewport--min-lg) {
-		--fs-figure-space: var(--fs-space--8);
+		--_fs-figure-space: var(--fs-space--8);
 	}
 }
 
