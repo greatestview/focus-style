@@ -22,6 +22,10 @@
 	--fs-color--interaction--cta: var(--fs-color--primary);
 	--fs-color--visited: var(--fs-color--secondary--dimmed);
 
+	/* Brand-colored accents, same in both color schemes */
+	--fs-color--text--accent: var(--fs-color--secondary--dimmed);
+	--fs-color--background--accent: var(--fs-color--secondary--dimmed);
+
 	/* Text/icons placed on the equally named surface color */
 	--fs-color--on-focus: var(--fs-color--white-alpha--870);
 	--fs-color--on-interaction: var(--fs-color--white-alpha--870);

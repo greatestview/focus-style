@@ -4,7 +4,7 @@
 }
 
 .fs-article__title {
-	color: var(--fs-color--secondary--dimmed);
+	color: var(--fs-color--text--accent);
 	margin-block: 0;
 }
 
