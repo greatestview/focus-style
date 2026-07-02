@@ -28,7 +28,7 @@ FS is a simple, lightweight and adaptable CSS starter kit for building web front
 - *Four layer separation:* Loaded from low to high:
 	1. `/src/1-properties/`: the design system.
 	2. `/src/2-base-elements/`: minimal HTML reset and element definitions.
-	3. `/src/3-utilities/`: handpicked helper classes, especially useful for layout and typography. Think twice before introducing a new helper class and increasing code complexity/component dependence.
+	3. `/src/3-utility/`: handpicked helper classes, especially useful for layout and typography. Think twice before introducing a new helper class and increasing code complexity/component dependence.
 	4. `/src/4-components/`: some common page elements, optional.
 - *Typography scale:* Free your mind of font size values, they’re not needed anymore. Just define the font size root in `--fs-font-size-root.css` (or use the default one) and choose a typography scale in `--fs-font-size-scale.css`. That’s it! Now all font sizes for headlines and such are calculated automatically. In addition: If you want to align different font families visually for advanced typography, you can do so by defining an x-height-scale for each font family in `--fs-font-size-x-height-scale.css`.
 - *Color ramps:* Ramps are based on the [universal color palette system](https://uxdesign.cc/the-universal-color-palette-9826deb94f7). The color lightness for `--_fs-color--*--500` should be equal across all color ramps. The ramps only contain the steps actually in use, so that they can be extended later without refactoring, if necessary.
