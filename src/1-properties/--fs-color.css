@@ -16,24 +16,24 @@
 	/* Define color schemes */
 	color-scheme: dark light;
 
-	--fs-color--shadow: var(--_fs-color--black-alpha--050);
 	--fs-color--focus: var(--_fs-color--primary);
 	--fs-color--interaction: var(--_fs-color--secondary);
 	--fs-color--interaction--cta: var(--_fs-color--primary);
+	--fs-color--shadow: var(--_fs-color--black-alpha--050);
 	--fs-color--visited: var(--_fs-color--secondary--dimmed);
 
 	/* Brand-colored accents, same in both color schemes */
-	--fs-color--text--accent: var(--_fs-color--secondary--dimmed);
 	--fs-color--background--accent: var(--_fs-color--secondary--dimmed);
+	--fs-color--text--accent: var(--_fs-color--secondary--dimmed);
 
 	/* Text/icons placed on the equally named surface color */
 	--fs-color--on-focus: var(--_fs-color--white-alpha--870);
 	--fs-color--on-interaction: var(--_fs-color--white-alpha--870);
 
 	/* Scheme-dependent, resolved against `color-scheme` */
-	--fs-color--site-background: light-dark(var(--_fs-color--white), var(--_fs-color--black));
 	--fs-color--background: light-dark(var(--_fs-color--black-alpha--050), var(--_fs-color--white-alpha--100));
 	--fs-color--border: light-dark(var(--_fs-color--black-alpha--200), var(--_fs-color--white-alpha--200));
+	--fs-color--site-background: light-dark(var(--_fs-color--white), var(--_fs-color--black));
 	--fs-color--strong: light-dark(var(--_fs-color--black-alpha--870), var(--_fs-color--white-alpha--870));
 	--fs-color--text: light-dark(var(--_fs-color--black-alpha--870), var(--_fs-color--white-alpha--870));
 	--fs-color--text--1: light-dark(var(--_fs-color--black-alpha--660), var(--_fs-color--white-alpha--660));
