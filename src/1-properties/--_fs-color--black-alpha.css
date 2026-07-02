@@ -1,0 +1,15 @@
+/**
+ * Color – Black alpha: ramp
+ *
+ * Less is more: only define steps that are actually in use.
+ *
+ * Step number = alpha × 10, so `--200` is black at 20% opacity.
+ */
+
+:root {
+	--_fs-color--black-alpha--050: oklch(from var(--_fs-color--black) l c h / 5%);
+	--_fs-color--black-alpha--200: oklch(from var(--_fs-color--black) l c h / 20%);
+	--_fs-color--black-alpha--500: oklch(from var(--_fs-color--black) l c h / 50%);
+	--_fs-color--black-alpha--660: oklch(from var(--_fs-color--black) l c h / 66%);
+	--_fs-color--black-alpha--870: oklch(from var(--_fs-color--black) l c h / 87%);
+}

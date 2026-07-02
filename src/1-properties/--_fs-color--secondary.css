@@ -1,0 +1,10 @@
+/**
+ * Color – Secondary: ramp or standalone
+ *
+ * Less is more: only define steps that are actually in use.
+ */
+
+:root {
+	--_fs-color--secondary: oklch(67.5% 0.112 217.32);
+	--_fs-color--secondary--dimmed: oklch(from var(--_fs-color--secondary) calc(l - 14.47%) calc(c - 0.019) h);
+}
