@@ -173,12 +173,11 @@ pre {
 }
 
 kbd {
+	background-color: var(--fs-color--focus);
+	border-radius: var(--fs-border-radius--default);
 	color: var(--fs-color--on-focus);
 
 	:not(pre) > & {
-		background-color: var(--fs-color--focus);
-		border-radius: var(--fs-border-radius--default);
-		color: var(--fs-color--white);
 		padding-inline: var(--fs-space--1);
 	}
 }
