@@ -1,0 +1,16 @@
+/**
+ * Scale
+ *
+ * Common scales, to be used internally, e.g. for font sizes.
+ */
+
+:root {
+	--_fs-scale--minor-second: 1.067;
+	--_fs-scale--major-second: 1.125;
+	--_fs-scale--minor-third: 1.2;
+	--_fs-scale--major-third: 1.25;
+	--_fs-scale--perfect-fourth: 1.333;
+	--_fs-scale--augmented-fourth: 1.414;
+	--_fs-scale--perfect-fifth: 1.5;
+	--_fs-scale--golden-ratio: 1.618;
+}

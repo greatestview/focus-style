@@ -1,20 +1,11 @@
 /**
  * Font size scale
  *
- * Common typography scales. Choose *one* for your `--fs-font-size-scale`.
+ * Choose *one* typography scale for your `--fs-font-size-scale`.
  */
 
 :root {
-	--fs-font-size-scale--minor-second: 1.067;
-	--fs-font-size-scale--major-second: 1.125;
-	--fs-font-size-scale--minor-third: 1.2;
-	--fs-font-size-scale--major-third: 1.25;
-	--fs-font-size-scale--perfect-fourth: 1.333;
-	--fs-font-size-scale--augmented-fourth: 1.414;
-	--fs-font-size-scale--perfect-fifth: 1.5;
-	--fs-font-size-scale--golden-ratio: 1.618;
-
 	/* Font size variants are calculated via --fs-font-size-root and this factor
 	   */
-	--fs-font-size-scale: var(--fs-font-size-scale--augmented-fourth);
+	--fs-font-size-scale: var(--_fs-scale--augmented-fourth);
 }
