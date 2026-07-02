@@ -1,0 +1,9 @@
+/**
+ * Color – Primary: ramp or standalone
+ *
+ * Less is more: only define steps that are actually in use.
+ */
+
+:root {
+	--fs-color--primary: oklch(59.51% 0.226 5.27);
+}

@@ -173,7 +173,7 @@ pre {
 }
 
 kbd {
-	color: var(--fs-color--white);
+	color: var(--fs-color--on-focus);
 
 	:not(pre) > & {
 		background-color: var(--fs-color--focus);

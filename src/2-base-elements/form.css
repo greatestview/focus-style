@@ -59,7 +59,7 @@ input:where([type="submit"], [type="button"], [type="reset"]),
 [type="submit"],
 .fs-button--submit {
 	background-color: var(--fs-color--interaction);
-	color: var(--fs-color--white);
+	color: var(--fs-color--on-interaction);
 }
 
 input:where([type="text"], [type="password"], [type="url"], [type="email"], [type="tel"], [type="search"], [type="number"], [type="date"], [type="month"], [type="week"], [type="datetime"], [type="datetime-local"], [type="time"], [type="file"]),

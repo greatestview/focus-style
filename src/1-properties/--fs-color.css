@@ -1,60 +1,50 @@
 /**
- * Color: palette
+ * Color: Semantic interface
+ *
+ * Bare tokens (`--fs-color--text`) in this file are the public interface: only
+ * use these in components and utilities!
+ *
+ * Sub-grouped tokens (e.g. `--fs-color--neutral--200`) are primitives, only
+ * meant to wire up the semantic tokens in this file. Never use tokens from
+ * other `--fs-color--*` files in components and utilities directly.
+ *
+ * No literal color values in here, only references. Raw values live in their
+ * own token files.
  */
 
 :root {
-	/* Brand */
-	--fs-color--primary: oklch(59.51% 0.226 5.27);
-	--fs-color--secondary: oklch(67.5% 0.112 217.32);
-	--fs-color--secondary--dimmed: oklch(from var(--fs-color--secondary) calc(l - 14.47%) calc(c - 0.019) h);
-
-	/* Grayscale */
-	--fs-color--black: oklch(0% 0 0 / 87%);
-	--fs-color--black--1: oklch(from var(--fs-color--black) l c h / 66%);
-	--fs-color--black--2: oklch(from var(--fs-color--black) l c h / 50%);
-	--fs-color--black--3: oklch(from var(--fs-color--black) l c h / 20%);
-	--fs-color--black--4: oklch(from var(--fs-color--black) l c h / 5%);
-	--fs-color--white: oklch(100% 0 0 / 87%);
-	--fs-color--white--1: oklch(from var(--fs-color--white) l c h / 66%);
-	--fs-color--white--2: oklch(from var(--fs-color--white) l c h / 50%);
-	--fs-color--white--3: oklch(from var(--fs-color--white) l c h / 20%);
-	--fs-color--white--4: oklch(from var(--fs-color--white) l c h / 10%);
-
-	/* Other */
-	--fs-color--mark: oklch(81.7% 0.17 77.69 / 24%);
-
-	/* Define color scheme */
+	/* Define color schemes */
 	color-scheme: dark light;
 
-	/**
-	 * Color properties, which reference colors from the palette.
-	 * Should be used instead of the color palette properties.
-	 */
-	--fs-color--shadow: var(--fs-color--black--4);
+	--fs-color--shadow: var(--fs-color--black-alpha--050);
 	--fs-color--focus: var(--fs-color--primary);
 	--fs-color--interaction: var(--fs-color--secondary);
 	--fs-color--interaction--cta: var(--fs-color--primary);
 	--fs-color--visited: var(--fs-color--secondary--dimmed);
 
+	/* Text/icons placed on the equally named surface color */
+	--fs-color--on-focus: var(--fs-color--white-alpha--870);
+	--fs-color--on-interaction: var(--fs-color--white-alpha--870);
+
 	@media (prefers-color-scheme: light) {
 		color-scheme: light;
 		--fs-color--site-background: var(--fs-color--white);
-		--fs-color--background: var(--fs-color--black--4);
-		--fs-color--border: var(--fs-color--black--3);
-		--fs-color--strong: var(--fs-color--black);
-		--fs-color--text: var(--fs-color--black);
-		--fs-color--text--1: var(--fs-color--black--1);
-		--fs-color--text--2: var(--fs-color--black--2);
+		--fs-color--background: var(--fs-color--black-alpha--050);
+		--fs-color--border: var(--fs-color--black-alpha--200);
+		--fs-color--strong: var(--fs-color--black-alpha--870);
+		--fs-color--text: var(--fs-color--black-alpha--870);
+		--fs-color--text--1: var(--fs-color--black-alpha--660);
+		--fs-color--text--2: var(--fs-color--black-alpha--500);
 	}
 
 	@media (prefers-color-scheme: dark) {
 		color-scheme: dark;
 		--fs-color--site-background: var(--fs-color--black);
-		--fs-color--background: var(--fs-color--white--4);
-		--fs-color--border: var(--fs-color--white--3);
-		--fs-color--strong: var(--fs-color--white);
-		--fs-color--text: var(--fs-color--white);
-		--fs-color--text--1: var(--fs-color--white--1);
-		--fs-color--text--2: var(--fs-color--white--2);
+		--fs-color--background: var(--fs-color--white-alpha--100);
+		--fs-color--border: var(--fs-color--white-alpha--200);
+		--fs-color--strong: var(--fs-color--white-alpha--870);
+		--fs-color--text: var(--fs-color--white-alpha--870);
+		--fs-color--text--1: var(--fs-color--white-alpha--660);
+		--fs-color--text--2: var(--fs-color--white-alpha--500);
 	}
 }

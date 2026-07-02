@@ -1,0 +1,20 @@
+/**
+ * Color – Neutral: solid ramp
+ *
+ * Less is more: only define steps that are actually in use.
+ * If you like it fancy, use the *-alpha ramps instead.
+ *
+ * Step number = percentage of black mixed into white × 10, so `--200` is
+ * 20% black. On a white background a neutral step looks identical to the
+ * black alpha step with the same number, but stays solid (no bleed-through
+ * when elements overlap).
+ */
+/*
+:root {
+	--fs-color--neutral--100: color-mix(in oklab, var(--fs-color--black) 10%, var(--fs-color--white));
+	--fs-color--neutral--200: color-mix(in oklab, var(--fs-color--black) 20%, var(--fs-color--white));
+	--fs-color--neutral--500: color-mix(in oklab, var(--fs-color--black) 50%, var(--fs-color--white));
+	--fs-color--neutral--660: color-mix(in oklab, var(--fs-color--black) 66%, var(--fs-color--white));
+	--fs-color--neutral--870: color-mix(in oklab, var(--fs-color--black) 87%, var(--fs-color--white));
+}
+*/

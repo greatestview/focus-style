@@ -1,0 +1,10 @@
+/**
+ * Color – Black: anchor
+ *
+ * Pure, no alpha. Singleton and source for ramps and mixes — alpha variants
+ * belong to the black alpha ramp, grayscale variants to the neutral ramp.
+ */
+
+:root {
+	--fs-color--black: oklch(0% 0 0);
+}
