@@ -2,7 +2,7 @@
 
 ## What is Focus Style?
 
-FS is a simple, lightweight and adaptable CSS starterkit for building web frontends. It is the essence of many years of experience in building website frontends from scratch. Thanks to its minimalism, it is capable of powering complex multi-user sites as well as lightweight one-pagers.
+FS is a simple, lightweight and adaptable CSS starterkit for building web frontends. It is the essence of many years of experience in building website frontends from scratch, both from a designers and a developers perspective. Thanks to its minimalism, it is capable of powering complex multi-user sites as well as lightweight one-pagers.
 
 ## What makes Focus Style unique?
 - FS is **minimalistic**: Compared to other CSS frameworks, FS is very lightweight and tries to avoid unnecessary bloat.
@@ -16,9 +16,11 @@ FS is a simple, lightweight and adaptable CSS starterkit for building web fronte
 - FS uses **convention over configuration**, thus some opinionated rules are neccessary.
 
 ## Which rules apply?
-- *Every component should have zero margin:*: Margins should be handled via one of the parent components, e.g. by using `.fs-flex` with `.fs-gap`. That way unpredictable margin collapses are prevented. To ensure that, Block Formatting Context should be applied to each component. You can do that by using the `.fs-bfc` utility.
-- *No magic numbers!* Only ever use predefined tokens.
+- *No magic numbers!* Please only ever use predefined tokens for consistency and better maintainability.
+- *Every component should have zero margin:*: Components should be unaware of their outer world. Margins should be handled via one of the parent components, e.g. by using `.fs-flex` with `.fs-gap`. That way unpredictable margin collapses or double margins in certain situations are prevented. To ensure that, [Block Formatting Context](https://www.smashingmagazine.com/2017/12/understanding-css-layout-block-formatting-context/) should be applied to each component. You can do that by using the `.fs-bfc` utility.
+- *Components are unaware of their surroundings:* No dependencies from other objects, the outer world is a black box.
 - *Everything is a space:* FS doesn’t distinguish between margins, paddings, heights, weights, border-width, etc. Just use `--fs-space--*` for everything. The space scale is limited on purpose, to ensure a harmonic layout. Also it is linear, so doubling the value means doubling the space. Only exception is `--fs-max-size--*`, since those values are much bigger. The space scale depends on `--fs-font-size-root` and is responsive by default.
+- *Float is only used for elements, which float:* Self-explanatory, for layout we have better instruments nowadays.
 - *Naming with double dashes:* A double dash separates a group from its variant (`--fs-border-radius--default`), a single dash is part of a compound name (`--fs-font-size-scale`). T-shirt sizes are abbreviated (`sm`, `md`, `2xl`), all other values are spelled out (`wide`, `large`). Classes are standard BEM. That way, FS reduces confusion and helps using autocomplete.
 - *Private properties for internal use only:* You might stumble across files/tokens beginning with an `_` like `--_fs-color--white`. Those are meant for internal reference only and never to be used directly outside their scope in other components or utility classes!
 
