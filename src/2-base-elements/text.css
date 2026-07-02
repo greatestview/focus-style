@@ -99,29 +99,36 @@ b {
 	font-weight: var(--fs-font-weight--bold);
 }
 
+/**
+ * `--fs-blockquote-*` are public knobs: set them on any ancestor to configure
+ * blockquotes. The element never declares the knobs itself, so no specificity
+ * is involved — defaults live in the `var()` fallbacks. An empty knob value
+ * (`--fs-blockquote-font-size: ;`) removes the explicit sizing and falls back
+ * to inheritance.
+ */
 blockquote {
-	--fs-blockquote-font-size: inherit;
-	--fs-blockquote-line-height: inherit;
-	--fs-blockquote-margin-block: var(--fs-space--6);
-	--fs-blockquote-padding-inline: var(--fs-space--8);
+	--_fs-blockquote-font-size: var(--fs-blockquote-font-size, );
+	--_fs-blockquote-line-height: var(--fs-blockquote-line-height, );
+	--_fs-blockquote-margin-block: var(--fs-blockquote-margin-block, var(--fs-space--6));
+	--_fs-blockquote-padding-inline: var(--fs-blockquote-padding-inline, var(--fs-space--8));
 	color: var(--fs-color--strong);
-	margin: var(--fs-blockquote-margin-block) 0;
-	padding-inline: var(--fs-blockquote-padding-inline);
+	margin: var(--_fs-blockquote-margin-block) 0;
+	padding-inline: var(--_fs-blockquote-padding-inline);
 	position: relative;
 
 	@media (--fs-viewport--min-md) {
-		--fs-blockquote-font-size: var(--fs-font-size--lg);
-		--fs-blockquote-line-height: var(--fs-line-height--lg);
-		--fs-blockquote-margin-block: var(--fs-space--8);
-		--fs-blockquote-padding-inline: var(--fs-space--12);
+		--_fs-blockquote-font-size: var(--fs-blockquote-font-size, var(--fs-font-size--lg));
+		--_fs-blockquote-line-height: var(--fs-blockquote-line-height, var(--fs-line-height--lg));
+		--_fs-blockquote-margin-block: var(--fs-blockquote-margin-block, var(--fs-space--8));
+		--_fs-blockquote-padding-inline: var(--fs-blockquote-padding-inline, var(--fs-space--12));
 	}
 }
 
 blockquote,
 blockquote > :not(cite) {
-	font-size: var(--fs-blockquote-font-size);
+	font-size: var(--_fs-blockquote-font-size);
 	font-style: italic;
-	line-height: var(--fs-blockquote-line-height);
+	line-height: var(--_fs-blockquote-line-height);
 }
 
 cite {

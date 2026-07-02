@@ -8,10 +8,11 @@
 	color: var(--fs-color--text);
 }
 
-.fs-comment__content > * {
-	--fs-blockquote-font-size: inherit;
-	--fs-blockquote-line-height: inherit;
-	--fs-blockquote-margin-block: 0;
+.fs-comment__content {
+	/* Empty values switch blockquotes back to inherited type sizing */
+	--fs-blockquote-font-size: ;
+	--fs-blockquote-line-height: ;
+	--fs-blockquote-margin-block: var(--fs-space--none);
 }
 
 .fs-comment p {
