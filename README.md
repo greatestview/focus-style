@@ -11,3 +11,10 @@ FS is a simple, lightweight and adaptable CSS starterkit for building web fronte
 - FS is easy: It provides clear, consistent naming conventions and helpful utility classes.
 - FS is customizable: Add your own utility classes and remove those you don’t need. Use broad color palettes for complex corporate designs or just a few standalone colors.
 
+## What’s under the hood?
+
+FS is built with PostCSS and just two plugins:
+- `postcss-custom-media` is a polyfill for the upcoming @custom-media standard.
+- `postcss-easy-import` resolves glob imports and bundles all layers into one file.
+
+Everything else is native CSS.
