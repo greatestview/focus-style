@@ -30,25 +30,12 @@
 	--fs-color--on-focus: var(--fs-color--white-alpha--870);
 	--fs-color--on-interaction: var(--fs-color--white-alpha--870);
 
-	@media (prefers-color-scheme: light) {
-		color-scheme: light;
-		--fs-color--site-background: var(--fs-color--white);
-		--fs-color--background: var(--fs-color--black-alpha--050);
-		--fs-color--border: var(--fs-color--black-alpha--200);
-		--fs-color--strong: var(--fs-color--black-alpha--870);
-		--fs-color--text: var(--fs-color--black-alpha--870);
-		--fs-color--text--1: var(--fs-color--black-alpha--660);
-		--fs-color--text--2: var(--fs-color--black-alpha--500);
-	}
-
-	@media (prefers-color-scheme: dark) {
-		color-scheme: dark;
-		--fs-color--site-background: var(--fs-color--black);
-		--fs-color--background: var(--fs-color--white-alpha--100);
-		--fs-color--border: var(--fs-color--white-alpha--200);
-		--fs-color--strong: var(--fs-color--white-alpha--870);
-		--fs-color--text: var(--fs-color--white-alpha--870);
-		--fs-color--text--1: var(--fs-color--white-alpha--660);
-		--fs-color--text--2: var(--fs-color--white-alpha--500);
-	}
+	/* Scheme-dependent, resolved against `color-scheme` */
+	--fs-color--site-background: light-dark(var(--fs-color--white), var(--fs-color--black));
+	--fs-color--background: light-dark(var(--fs-color--black-alpha--050), var(--fs-color--white-alpha--100));
+	--fs-color--border: light-dark(var(--fs-color--black-alpha--200), var(--fs-color--white-alpha--200));
+	--fs-color--strong: light-dark(var(--fs-color--black-alpha--870), var(--fs-color--white-alpha--870));
+	--fs-color--text: light-dark(var(--fs-color--black-alpha--870), var(--fs-color--white-alpha--870));
+	--fs-color--text--1: light-dark(var(--fs-color--black-alpha--660), var(--fs-color--white-alpha--660));
+	--fs-color--text--2: light-dark(var(--fs-color--black-alpha--500), var(--fs-color--white-alpha--500));
 }
