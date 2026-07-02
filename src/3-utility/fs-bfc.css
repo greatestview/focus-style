@@ -12,3 +12,7 @@
 .fs-bfc {
 	display: flow-root;
 }
+
+.fs-btc[hidden] {
+	display: none; /* Prevents double margins when empty */
+}
