@@ -13,6 +13,9 @@
     "> 1%",
     "not dead"
   ],
+  "engines": {
+    "node": ">=22.0.0"
+  },
   "devDependencies": {
     "postcss-cli": "^10.0.0",
     "postcss-custom-media": "^9.0.1",
