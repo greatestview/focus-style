@@ -4,9 +4,9 @@
 
 :root {
 	--fs-border-radius--none: 0;
-	--fs-border-radius--sm: var(--fs-space--0\.5);
-	--fs-border-radius--md: var(--fs-space--1);
-	--fs-border-radius--lg: var(--fs-space--2);
+	--fs-border-radius--sm: var(--fs-space--1);
+	--fs-border-radius--md: var(--fs-space--2);
+	--fs-border-radius--lg: var(--fs-space--4);
 	--fs-border-radius--full: 9999px;
-	--fs-border-radius--default: var(--fs-border-radius--md);
+	--fs-border-radius--default: var(--fs-border-radius--lg);
 }
