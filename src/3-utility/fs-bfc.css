@@ -13,6 +13,6 @@
 	display: flow-root;
 }
 
-.fs-btc[hidden] {
+.fs-bfc[hidden] {
 	display: none; /* Prevents double margins when empty */
 }
