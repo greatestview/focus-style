@@ -2,7 +2,7 @@
 
 ## What is Focus Style?
 
-FS is a simple, lightweight and adaptable CSS starter kit for building web frontends. It is the essence of many years of experience in building website frontends from scratch, both from a designer’s and a developer’s perspective. Thanks to its minimalism, it is capable of powering complex multi-user sites as well as lightweight one-pagers.
+Focus Style (FS) is a simple, lightweight and adaptable CSS starter kit for building web frontends. It is the essence of many years of experience in building website frontends from scratch, both from a designer’s and a developer’s perspective. Thanks to its minimalism, it is capable of powering complex multi-user sites as well as lightweight one-pagers.
 
 ## What makes Focus Style unique?
 - FS is **minimalistic**: Compared to other CSS frameworks, FS is very lightweight and tries to avoid unnecessary bloat.
@@ -11,6 +11,7 @@ FS is a simple, lightweight and adaptable CSS starter kit for building web front
 - FS is **responsive** by default: Font sizes and spaces adjust depending on the viewport size.
 - FS has a sophisticated **typography system**: Fluid font sizes, mathematical scales and even x-height scales let you optimize the legibility of your texts across all screens… all with a few lines of code.
 - FS uses a flexible and well-grown **color system**: Tints, shades and alpha ramps derive from a few anchor colors. You can also choose between solid ramps or alpha ramps.
+- FS is **dark mode** ready: Semantic color tokens switch via `light-dark()` by default.
 - FS is **customizable**: Add your own utility classes and remove those you don’t need. Use broad color palettes for complex corporate designs or just a few standalone colors. You’re free to adapt FS to your needs.
 - FS makes **testing designs easy**, since it runs on custom properties and can be live edited in your browser’s dev tools.
 - FS uses **convention over configuration**, thus some opinionated rules are necessary.
@@ -42,3 +43,57 @@ FS is built with PostCSS and just two plugins:
 - `postcss-easy-import` resolves glob imports and bundles all layers into one file.
 
 Everything else is native CSS.
+
+## Which browsers are supported?
+
+Current evergreen browsers. FS deliberately ships native modern CSS (nesting, `pow()`, relative colors, `light-dark()`, …) without transpiling or polyfilling it (see `browserslist` in `package.json`). If you need to support legacy browsers, you can try adding some PostCSS plugins.
+
+## How do I get started?
+
+FS is not published on npm; it’s a starter kit, meant to be copied and made your own:
+
+1. Copy or clone this repository into your project.
+2. Run `npm install` (requires Node ≥ 22).
+3. Run `npm run build` (or `npm run watch` while developing) to compile `src/style.css` into `dist/style.css`.
+4. Link the compiled stylesheet in your HTML, e.g. via `<link rel="stylesheet" href="dist/style.css">` or use your own toolchain.
+
+Then adapt FS to your needs: adjust the tokens in `/src/1-properties/`, remove utilities and components you don’t need and add your own. Any `.css` file you drop into a layer folder is picked up automatically, if you use the built-in scripts.
+
+## What does a component look like?
+
+A component consumes only tokens: spaces for all metrics, semantic tokens for all colors, font sizes always paired with their matching line heights.
+
+```css
+.teaser {
+	padding: var(--fs-space--4);
+	border: var(--fs-border-width--default) solid var(--fs-color--border);
+	border-radius: var(--fs-border-radius--default);
+	background-color: var(--fs-color--background);
+}
+
+.teaser__title {
+	font-size: var(--fs-font-size--lg);
+	line-height: var(--fs-line-height--lg);
+}
+```
+
+The spacing *between* the teasers is the parent’s job. The teasers themselves stay margin-free and get their Block Formatting Context via the `.fs-bfc` utility:
+
+```html
+<div class="fs-flex fs-flex--column fs-gap fs-gap--md">
+	<article class="teaser fs-bfc">
+		<h2 class="teaser__title">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</h2>
+		<p class="teaser__text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim.</p>
+	</article>
+	<article class="teaser fs-bfc">
+		<h2 class="teaser__title">Eiusmod tempor incididunt ut labore et dolore magna aliqua ut</h2>
+		<p class="teaser__text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt.</p>
+	</article>
+</div>
+```
+
+The component supports light and dark mode out of the box.
+
+## License
+
+Focus Style is licensed under the [MIT License](LICENSE).
