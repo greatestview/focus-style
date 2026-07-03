@@ -3,5 +3,6 @@
  */
 
 body {
+	font-family: var(--fs-font-family--default);
 	text-rendering: optimizeLegibility;
 }
