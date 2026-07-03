@@ -65,10 +65,11 @@ A component consumes only tokens: spaces for all metrics, semantic tokens for al
 
 ```css
 .teaser {
-	padding: var(--fs-space--4);
-	border: var(--fs-border-width--default) solid var(--fs-color--border);
-	border-radius: var(--fs-border-radius--default);
 	background-color: var(--fs-color--background);
+	border-radius: var(--fs-border-radius--default);
+	border: var(--fs-border-width--default) solid var(--fs-color--border);
+	padding: var(--fs-space--4) var(--fs-space--6);
+	max-inline-size: var(--fs-max-size--sm);
 }
 
 .teaser__title {
