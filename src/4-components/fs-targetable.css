@@ -16,7 +16,7 @@
 		content: "#";
 	}
 
-	.fs-targetable__action:not(:hover, :focus) {
+	&:not(:hover, :focus) {
 		opacity: var(--fs-opacity--none);
 	}
 
