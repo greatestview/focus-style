@@ -1,3 +1,10 @@
+/**
+ * WordPress comment form fields
+ *
+ * Styles WordPress-generated `.comment-*` markup. Collapsing is handled in
+ * `fs-comment-form.css`.
+ */
+
 .comment-notes,
 .comment-form-author,
 .comment-form-email,
