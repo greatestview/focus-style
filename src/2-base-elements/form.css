@@ -4,7 +4,7 @@
 
 :disabled {
 	cursor: not-allowed;
-	opacity: var(--fs-opacity--md);
+	opacity: var(--fs-opacity--medium);
 }
 
 ::placeholder {
@@ -43,7 +43,7 @@ input:where([type="submit"], [type="button"], [type="reset"]),
 	word-break: normal;
 
 	&:hover {
-		opacity: var(--fs-opacity--hi);
+		opacity: var(--fs-opacity--high);
 	}
 
 	&:focus {
