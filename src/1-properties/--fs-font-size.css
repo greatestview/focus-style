@@ -6,8 +6,8 @@
  * system. Example:
  *
  * h1 {
- * 	font-size: var(--cmpr--font-size--xl);
- * 	line-height: var(--cmpr--line-height--xl);
+ * 	font-size: var(--fs-font-size--xl);
+ * 	line-height: var(--fs-line-height--xl);
  * }
  */
 
