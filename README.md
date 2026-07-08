@@ -56,7 +56,7 @@ Current evergreen browsers. FS deliberately ships native modern CSS (nesting, `p
 FS is not published on npm; it’s a starter kit, meant to be copied and made your own:
 
 1. Copy or clone this repository into your project.
-2. Run `npm install` (requires Node ≥ 22).
+2. Run `npm install` (requires Node ≥ 24).
 3. Run `npm run build` (or `npm run watch` while developing) to compile `src/style.css` into `dist/style.css`.
 4. Link the compiled stylesheet in your HTML, e.g. via `<link rel="stylesheet" href="dist/style.css">` or use your own toolchain.
 
